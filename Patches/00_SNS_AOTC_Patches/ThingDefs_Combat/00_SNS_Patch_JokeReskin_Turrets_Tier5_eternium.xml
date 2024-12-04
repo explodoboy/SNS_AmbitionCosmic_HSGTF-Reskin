@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Science Never Stops: Ambition of the Cosmic</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_Bullet_EXARCH"]/label</xpath>
+				<value>
+					<label>TORMENT Projectile</label>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_EXARCH"]/label</xpath>
+				<value>
+					<label>automated TORMENT</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_EXARCH"]/description</xpath>
+				<value>
+					<description>The gun of an automated TORMENT.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Turret_EXARCH"]/label</xpath>
+				<value>
+					<label>Automated TORMENT</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Turret_EXARCH"]/description</xpath>
+				<value>
+					<description>A turret powered by the ultimate weapon, the Automated TORMENT is a rapidly firing superweapon able to bring down entire colonies by itself. It must be occasionally refueled with Torture Matter.\n\nIt is smart to keep it away from the front lines and allow it to bombard the enemy from afar due to its tendency drive whatever is caught in its explosion into rage-quitting out of reality.</description>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_EternalEXARCH"]/label</xpath>
+				<value>
+					<label>eternal automated TORMENT gun</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_EternalEXARCH"]/description</xpath>
+				<value>
+					<description>The gun of an automated TORMENT.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Turret_EternalEXARCH"]/label</xpath>
+				<value>
+					<label>Eternal Automated TORMENT</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Turret_EternalEXARCH"]/description</xpath>
+				<value>
+					<description>A turret powered by the ultimate weapon, the Automated TORMENT is a rapidly firing superweapon able to bring down entire colonies by itself. It does not need to ever be refueled.\n\nIt is smart to keep it away from the front lines and allow it to bombard the enemy from afar due to its tendency drive whatever is caught in its explosion into rage-quitting out of reality.</description>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

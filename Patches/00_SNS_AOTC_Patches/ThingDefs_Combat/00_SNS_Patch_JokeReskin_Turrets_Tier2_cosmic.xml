@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Science Never Stops: Ambition of the Cosmic</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_Bullet_Cosmic"]/label</xpath>
+				<value>
+					<label>overpowered turret projectile</label>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_Cosmic"]/label</xpath>
+				<value>
+					<label>overpowered turret gun</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_Cosmic"]/description</xpath>
+				<value>
+					<description>The gun of an overpowered turret.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Turret_Cosmic"]/label</xpath>
+				<value>
+					<label>overpowered turret</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Turret_Cosmic"]/description</xpath>
+				<value>
+					<description>A heavy automatic turret. Fires like a minigun, unleashing pure hatred upon whatever crosses its path with utter glee. Requires a large amount of Plasteel to refurbish its barrels after heavy use.</description>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_PerditionCosmic"]/label</xpath>
+				<value>
+					<label>perdition overpowered turret gun</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_PerditionCosmic"]/description</xpath>
+				<value>
+					<description>The gun of a perdition overpowered turret.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Turret_PerditionCosmic"]/label</xpath>
+				<value>
+					<label>perdition overpowered turret</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Turret_PerditionCosmic"]/description</xpath>
+				<value>
+					<description>A heavy automatic turret. Fires like a minigun, unleashing pure hatred upon whatever crosses its path with utter glee. Constantly. Requires a large amount of Plasteel to refurbish its barrels after heavy use.</description>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_EternalCosmic"]/label</xpath>
+				<value>
+					<label>eternal overpowered turret gun</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_EternalCosmic"]/description</xpath>
+				<value>
+					<description>The gun of an eternal overpowered turret.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Turret_EternalCosmic"]/label</xpath>
+				<value>
+					<label>eternal overpowered turret</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Turret_EternalCosmic"]/description</xpath>
+				<value>
+					<description>A heavy automatic turret. Fires like a minigun, unleashing pure hatred upon whatever crosses its path with utter glee. It does not need refurbishment or refueling, ever, nor can it break down.</description>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_EternalPerditionCosmic"]/label</xpath>
+				<value>
+					<label>eternal perdition overpowered turret gun</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_EternalPerditionCosmic"]/description</xpath>
+				<value>
+					<description>The gun of an eternal perdition overpowered turret.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Turret_EternalPerditionCosmic"]/label</xpath>
+				<value>
+					<label>eternal perdition overpowered turret</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Turret_EternalPerditionCosmic"]/description</xpath>
+				<value>
+					<description>A heavy automatic turret. Fires like a minigun, unleashing pure hatred upon whatever crosses its path with utter glee. Constantly. It does not require refurbishment or refueling, ever, nor can it break down.</description>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

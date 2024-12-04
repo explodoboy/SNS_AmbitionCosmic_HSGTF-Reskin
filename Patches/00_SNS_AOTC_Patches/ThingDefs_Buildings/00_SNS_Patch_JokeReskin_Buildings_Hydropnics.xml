@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Science Never Stops: Ambition of the Cosmic</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations>
+			<!-- thing name -->
+			<!-- thing label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Hydroponics_I"]/label</xpath>
+				<value>
+					<label>Overpowered Hydroponics Generation 1</label>
+				</value>
+			</li>
+			<!-- thing label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Hydroponics_I"]/description</xpath>
+				<value>
+					<description>A highly advanced Hydroponics Basin that employs several midget slaves and temporal technologies to accelerate time. If left unpowered, the midgets will eventually gather the will to try to escape and leave, taking the plants with them.\n\nNo, setting a guard to watch the plants won't work; the midgets will sneak away when the guard blinks. Multiple won't work, either. They'll all blink at once eventually.</description>
+				</value>
+			</li>
+			
+			<!-- thing name -->
+			<!-- thing label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Hydroponics_II"]/label</xpath>
+				<value>
+					<label>Overpowered Hydroponics Generation 2</label>
+				</value>
+			</li>
+			<!-- thing label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Hydroponics_II"]/description</xpath>
+				<value>
+					<description>An extremely advanced device that contains a pocket dimension full of vast planting fields and midget-slave housing, resulting in very high production of plant products. When unpowered, the containment fields will fail and the midgets will escape, taking the plants with them.\n\nNo, setting up one (or several) guards won't work; the midgets have become masters of stealth and will escape with ease even in well-lit, sealed environment with dozens of highly-armed guards.</description>
+				</value>
+			</li>
+			
+			<!-- thing name -->
+			<!-- thing label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Hydroponics_III"]/label</xpath>
+				<value>
+					<label>Abyssal Hydroponics Generation Omega</label>
+				</value>
+			</li>
+			<!-- thing label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Hydroponics_III"]/description</xpath>
+				<value>
+					<description>An arcane device that channels the raw fury of Torture Matter to create several pocket-universes dedicated to nothing but the production of crops. When unpowered, a vast civil war will erupt and all of the midgets will escape to other realities freed from the control of Torture Liquid. There is no way to stop this without power.\nOh, they'll also take the plants with them, so there's no way to just continue what they started. Just to spite you.</description>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

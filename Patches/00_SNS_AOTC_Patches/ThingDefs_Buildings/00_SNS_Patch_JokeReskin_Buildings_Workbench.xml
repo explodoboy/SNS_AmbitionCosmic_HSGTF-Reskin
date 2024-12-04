@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Science Never Stops: Ambition of the Cosmic</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations>
+			<!-- Cosmic Forge -->
+			<!-- label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Table_SNS_Unobtainer"]/label</xpath>
+				<value>
+					<label>Overpowered Forge</label>
+				</value>
+			</li>
+			<!-- description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Table_SNS_Unobtainer"]/description</xpath>
+				<value>
+					<description>A horrifying creation, the Overpowered Forge utilizes slave labor and tax evasion to make metals made of pure dispair.\n\nStats: Consumes 30K Watts.</description>
+				</value>
+			</li>
+			
+			<!-- Atomic Fabricator -->
+			<!-- label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Table_SNS_Constructor"]/label</xpath>
+				<value>
+					<label>Torture Fabricator</label>
+				</value>
+			</li>
+			<!-- description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Table_SNS_Constructor"]/description</xpath>
+				<value>
+					<description>A device that very painfully transmuates Torture Liquid into more useful (and less rebellious) things.\n\nStats: Consumes 10K Watts.</description>
+				</value>
+			</li>
+			
+			<!-- Cosmic Manipulator -->
+			<!-- label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Table_SNS_CosmicDrawer"]/label</xpath>
+				<value>
+					<label>Universe ############ ####### ### ######</label>
+				</value>
+			</li>
+			<!-- description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Table_SNS_CosmicDrawer"]/description</xpath>
+				<value>
+					<description>A device that ##### ####### ####### ## ####### ###### ###### ########### ## #### # ############.\n\nStats: Consumes 100K Watts.</description>
+				</value>
+			</li>
+			
+			<!-- Cosmic Call -->
+			<!-- label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Table_SNS_CosmicCall"]/label</xpath>
+				<value>
+					<label>P.A.I.N. Fabricator</label>
+				</value>
+			</li>
+			<!-- description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Table_SNS_CosmicCall"]/description</xpath>
+				<value>
+					<description>A device that does what the Universe ############ ####### ### ###### does, but without requiring any Torture Liquid to be supplied. It does this through accessing the Realm of Torture.\n\nStats: Consumes 1.5M Watts.</description>
+				</value>
+			</li>
+			
+			<!-- Utopia Device -->
+			<!-- label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Table_SNS_PinnacleFabricator"]/label</xpath>
+				<value>
+					<label>The Torture Device</label>
+				</value>
+			</li>
+			<!-- description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Table_SNS_PinnacleFabricator"]/description</xpath>
+				<value>
+					<description>This device is perfection itself, a fabricator imbued with Torture Matter. The device creates consciousnesses in the very fabric of the universe, for the specific purpose of creating Torture Liquid. The consciousnesses are theoretically able to sustain over 148,000% more external stimuli before they are overwhelmed and destroyed, allowing for a vast amount of Torture Liquid to be used for a variety of purposes, without the need to create any life (after the first few hundred consciousnesses, of course), especially making stuff out of the Torture Liquid.\n\nStats: Consumes 150K Watts.</description>
+				</value>
+			</li>
+			
+			<!-- Gen1 Bionic Crafting Station -->
+			<!-- label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Table_SNS_BionicCraftingStation_GenI"]/label</xpath>
+				<value>
+					<label>unbalanced bionic forge</label>
+				</value>
+			</li>
+			<!-- description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Table_SNS_BionicCraftingStation_GenI"]/description</xpath>
+				<value>
+					<description>A high-precision station where Generation-1 Unbalanced bionics are made.\n\nStats: Consumes 5K Watts.</description>
+				</value>
+			</li>
+			
+			<!-- Gen2 Bionic Crafting Station -->
+			<!-- label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Table_SNS_BionicCraftingStation_GenII"]/label</xpath>
+				<value>
+					<label>overpowered bionic forge</label>
+				</value>
+			</li>
+			<!-- description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Table_SNS_BionicCraftingStation_GenII"]/description</xpath>
+				<value>
+					<description>A high-precision station where Generation-2 Overpowered bionics are made.\n\nStats: Consumes 25K Watts.</description>
+				</value>
+			</li>
+			
+			<!-- Gen2 Bionic Crafting Station -->
+			<!-- label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Table_SNS_BionicCraftingStation_GenII"]/label</xpath>
+				<value>
+					<label>tortured bionic forge</label>
+				</value>
+			</li>
+			<!-- description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Table_SNS_BionicCraftingStation_GenII"]/description</xpath>
+				<value>
+					<description>A high-precision station where Generation-3 Tortured bionics are made.\n\nStats: Consumes 75K Watts.</description>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

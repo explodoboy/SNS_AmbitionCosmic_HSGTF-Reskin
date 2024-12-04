@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Vanilla Achievements Expanded</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationFindMod">
+			<mods>
+				<li>Science Never Stops: Ambition of the Cosmic</li>
+			</mods>
+			<match Class="PatchOperationSequence">
+				<operations>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_CraftCount_Unobtainium_I"]/label</xpath>
+						<value>
+							<label>The First Of Many Crimes</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_CraftCount_Unobtainium_I"]/description</xpath>
+						<value>
+							<description>Craft an Abyssal Forge batch's worth of Unbalancedite.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ItemCount_Unobtainium_I"]/label</xpath>
+						<value>
+							<label>The Potato Peeler Doesn't Peel Potatoes</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ItemCount_Unobtainium_I"]/description</xpath>
+						<value>
+							<description>Obtain any amount of Unbalancedite by any means.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ItemCount_Unobtainium_II"]/label</xpath>
+						<value>
+							<label>It Hates You As Much As You Love It</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ItemCount_Unobtainium_II"]/description</xpath>
+						<value>
+							<description>Stockpile a hundred units of Unbalancedite by any means.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ItemCount_Unobtainium_III"]/label</xpath>
+						<value>
+							<label>Can't Stop Me Now</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ItemCount_Unobtainium_III"]/description</xpath>
+						<value>
+							<description>Stockpile a thousand units of Unbalancedite by any means.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ItemCount_Unobtainium_IV"]/label</xpath>
+						<value>
+							<label>That's A Lot Of Skinned People</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ItemCount_Unobtainium_IV"]/description</xpath>
+						<value>
+							<description>Stockpile ten-thousand units of Unbalancedite by any means.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_CraftCount_CosmicMatter_I"]/label</xpath>
+						<value>
+							<label>Here We Come, Torture Liquid Unions!</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_CraftCount_CosmicMatter_I"]/description</xpath>
+						<value>
+							<description>Gather Torture Liquid using the Universe ############ ####### ### ######.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ItemCount_CosmicMatter_I"]/label</xpath>
+						<value>
+							<label>Pain Can Be Bottled</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ItemCount_CosmicMatter_I"]/description</xpath>
+						<value>
+							<description>Obtain any amount of Torture Liquid by any means.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ItemCount_CosmicMatter_II"]/label</xpath>
+						<value>
+							<label>No One Can Save You</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ItemCount_CosmicMatter_II"]/description</xpath>
+						<value>
+							<description>Stockpile a thousand Torture Liquid by any means.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ItemCount_CosmicMatter_III"]/label</xpath>
+						<value>
+							<label>An Empire Built Atop A Million Innocent Souls</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ItemCount_CosmicMatter_III"]/description</xpath>
+						<value>
+							<description>Stockpile ten-thousand Cosmic Matter by any means.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_CraftCount_Eternium_I"]/label</xpath>
+						<value>
+							<label>I Have No Regrets</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_CraftCount_Eternium_I"]/description</xpath>
+						<value>
+							<description>Gather Torture Matter using the R.I.F.T. Fabricator or the Tortu-- Actually, I won't spoil that to you.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ItemCount_Eternium_I"]/label</xpath>
+						<value>
+							<label>The Pain Of A Billion Lost Souls</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ItemCount_Eternium_I"]/description</xpath>
+						<value>
+							<description>Obtian any amount of Torture Matter by any means.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ItemCount_Eternium_II"]/label</xpath>
+						<value>
+							<label>Who Knew Torturing Felt So Good?</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ItemCount_Eternium_II"]/description</xpath>
+						<value>
+							<description>Stockpile 375 Torture Matter by any means.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ItemCount_Eternium_III"]/label</xpath>
+						<value>
+							<label>An Empire Built Atop A Trillion Innocent Souls</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ItemCount_Eternium_III"]/description</xpath>
+						<value>
+							<description>Stickpile three-thousand Torture Matter by any means.</description>
+						</value>
+					</li>
+
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_CraftQuality_Gen2_CosmicLance"]/label</xpath>
+						<value>
+							<label>Time To Break Some Minds</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_CraftQuality_Gen2_CosmicLance"]/description</xpath>
+						<value>
+							<description>Craft a Legendary-quality Handheld Overpowered Cannon.</description>
+						</value>
+					</li>
+					
+				</operations>
+			</match>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

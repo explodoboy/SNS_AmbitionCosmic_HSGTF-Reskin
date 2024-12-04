@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Science Never Stops: Ambition of the Cosmic</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations> <!-- 30 researches -->
+			<!-- SNS_Research_0 -->
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_0"]/label</xpath>
+				<value>
+					<label>The Road to Heaven</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_0"]/description</xpath>
+				<value>
+					<description>The road to Hell is paved with good intentions. The exact opposite has to be the road to heaven, right?\n\nEither way, it's not going to stop us from killing billions upon billions of poor souls. There's people out there who've killed more than us, and we can't let ourselves be #2!</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_I"]/label</xpath>
+				<value>
+					<label>Let's Start Paving That Road</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_I"]/description</xpath>
+				<value>
+					<description>Okay. So, we're a death cult now. What does that mean? Metal. Not metal music, you fool! Just metal! A Gold-Plasteel alloy to be exact.\n\nWhat? You think it's 'tOO ExpEnSiVE'? Well first, shut up. Second, get a mod that lets you make your own ####. Third, JUST REASEARCH THIS ####### TECHNOLOGY ALREADY!\n\nWait, what was I talking about? Oh, something about metal. Infuse that metal with angry people or something, I don't care.</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_I_linkable"]/label</xpath>
+				<value>
+					<label>MOAR UNBALANCEDITE</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_I_linkable"]/description</xpath>
+				<value>
+					<description>Our methods of drawing negative emotions to create Unbalancedite is too slow. If we can prepare TWO stages of Unbalancedite at once, we can at least spend less time waiting! What? You thought I was going to give you something to speed up the infusion process? Are you stupid? You're not high up the tech tree enough!</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_II_bionics"]/label</xpath>
+				<value>
+					<label>Bad Limbs</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_II_bionics"]/description</xpath>
+				<value>
+					<description>The hatred of Unbalancedite is perfect for making things very close to our bodies. Humans are hateful creatures, anyways! What's a couple multiples more of hatred to one man?</description>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_II_bionics"]/researchViewY</xpath>
+				<value>
+					<researchViewY>0.75</researchViewY>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_II_wep"]/label</xpath>
+				<value>
+					<label>Punishing The Weak</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_II_wep"]/description</xpath>
+				<value>
+					<description>The galaxy has, for millennia, punished the weak with processing into Torture Liquid. We aren't weak. Let's make them wish that they were processed into Torture Liquid.</description>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_II_wep"]/researchViewY</xpath>
+				<value>
+					<researchViewY>1.25</researchViewY>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_II_armor"]/label</xpath>
+				<value>
+					<label>Becoming NOT Weak</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_II_armor"]/description</xpath>
+				<value>
+					<description>The enemy has come to take us away and process us into Torture Liquid. Suicide isn't an option, either. Have you seen those resurrection mech serums? No, you can only die after you've been processed into Torture Liquid.</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_II_pwr"]/label</xpath>
+				<value>
+					<label>Power From Hatred</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_II_pwr"]/description</xpath>
+				<value>
+					<description>They all called you crazy. Not because they didn't think you could make power from hatred; everyone knows that! No, they called you crazy because you thought you could produce up to an entire litre of Torture Liquid from a single brain.\n\n####, I got off-topic again. Okay, so basically you make power from literal bad emotions.</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_II_hydroponics"]/label</xpath>
+				<value>
+					<label>Midget Slavery</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_II_hydroponics"]/description</xpath>
+				<value>
+					<description>Enslave midgets to make lots and lots of crops.</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_II_medicine"]/label</xpath>
+				<value>
+					<label>To Pulverize Glitterworld</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_II_medicine"]/description</xpath>
+				<value>
+					<description>Unfortunately, you can't threaten glitterworlds without facing immediate annihlation. Instead, you can just look at them angrily while you make better stuff than them so you could eventually threaten them without facing immediate annihlation.</description>
+				</value>
+			</li>
+			<!-- Position -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_II_medicine"]/researchViewY</xpath>
+				<value>
+					<researchViewY>3.20</researchViewY>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_II_food"]/label</xpath>
+				<value>
+					<label>Food of the Future</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_II_food"]/description</xpath>
+				<value>
+					<description>Threaten people into pretending their food is good.</description>
+				</value>
+			</li>
+			<!-- Position -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_II_food"]/researchViewY</xpath>
+				<value>
+					<researchViewY>3.85</researchViewY>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_II_drugs"]/label</xpath>
+				<value>
+					<label>Advanced Drug Production</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_II_drugs"]/description</xpath>
+				<value>
+					<description>Drugs based entirely around threats of violence against various things we don't like.</description>
+				</value>
+			</li>
+			<!-- Position -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_II_drugs"]/researchViewY</xpath>
+				<value>
+					<researchViewY>4.35</researchViewY>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_II_furniture"]/label</xpath>
+				<value>
+					<label>Next-Generation Recreation</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_II_furniture"]/description</xpath>
+				<value>
+					<description>The Joy of the future.\n\nOr: If you don't like it, I'll make you.</description>
+				</value>
+			</li>
+			<!-- Position -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_II_furniture"]/researchViewY</xpath>
+				<value>
+					<researchViewY>5.05</researchViewY>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_II_bridge"]/label</xpath>
+				<value>
+					<label>Torture Theory</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_II_bridge"]/description</xpath>
+				<value>
+					<description>Simple hatred and vitriols isn't enough. We need more. MORE. MOAR!\n\nThe future is bright. The future is torture.</description>
+				</value>
+			</li>
+
+
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_base"]/description</xpath>
+				<value>
+					<description>Torture Liquid is the perfect substance, having fueled civilization for millennia. We want more. We need more. It's time to start turning people into Torture Liquid.</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_linkable"]/label</xpath>
+				<value>
+					<label>Advanced Torture Liquid Collection</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_linkable"]/description</xpath>
+				<value>
+					<description>Our current methods of drawing Torture Liquid is crude, extracting Torture Liquid from regular blunt-force trauma and horrifying imagery. We have technology! We can bludgeon people with it! Just ask Patrick Star!</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_bionics"]/label</xpath>
+				<value>
+					<label>Mechanical Perfection</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_bionics"]/description</xpath>
+				<value>
+					<description>The robot limbs are angrier, more powerful, and expensive. But most importantly, they're in much more pain. Good for us, bad for them!</description>
+				</value>
+			</li>
+			<!-- Position -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_bionics"]/researchViewY</xpath>
+				<value>
+					<researchViewY>0.70</researchViewY>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_weaponry"]/label</xpath>
+				<value>
+					<label>The Guns of Doom</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_weaponry"]/description</xpath>
+				<value>
+					<description>Let's make some Torture Liquid. With our guns.\n\nWait, the mod author didn't add that? What do you mean that this mod is just a regular reskin?!</description>
+				</value>
+			</li>
+			<!-- Position -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_weaponry"]/researchViewY</xpath>
+				<value>
+					<researchViewY>1.20</researchViewY>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_armor"]/label</xpath>
+				<value>
+					<label>Can't Stop Us Now</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_armor"]/description</xpath>
+				<value>
+					<description>Their weapons won't save themselves from the Torture Liquid Collection Team.</description>
+				</value>
+			</li>
+			
+
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_power"]/label</xpath>
+				<value>
+					<label>Pain == Power</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_power"]/description</xpath>
+				<value>
+					<description>Electricity from thousands of tortured souls. Are you already imagining the horrified screams, because I am!</description>
+				</value>
+			</li>
+			<!-- Position -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_power"]/researchViewY</xpath>
+				<value>
+					<researchViewY>2.20</researchViewY>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_hydroponics"]/label</xpath>
+				<value>
+					<label>Midget Miniturisation</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_hydroponics"]/description</xpath>
+				<value>
+					<description>Pocket dimensions and slavery seem like they were just made for each other.</description>
+				</value>
+			</li>
+			<!-- Position -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_hydroponics"]/researchViewY</xpath>
+				<value>
+					<researchViewY>2.70</researchViewY>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_medicine"]/label</xpath>
+				<value>
+					<label>Scarier Than Glitterworld</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_medicine"]/description</xpath>
+				<value>
+					<description>Our medical tools are actually really, really bad. In fact, you'd probably be more sanitary by defecating onto your hands and touching your internal organs. Regardless, the threat of Torture Liquid can scare [anything] away. Even Glitterworlds.</description>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_medicine"]/researchViewY</xpath>
+				<value>
+					<researchViewY>3.20</researchViewY>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_food"]/label</xpath>
+				<value>
+					<label>Futurefood II</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_food"]/description</xpath>
+				<value>
+					<description>"And with every bite comes the flavor of a thousand tortured dead people!"</description>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_food"]/researchViewY</xpath>
+				<value>
+					<researchViewY>3.85</researchViewY>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_drugs"]/label</xpath>
+				<value>
+					<label>Really Angry Drugs</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_drugs"]/description</xpath>
+				<value>
+					<description>The drugs are mad. You shouldn't have taken them. Now the Torture Liquid is going to have its revenge, and so will I.</description>
+				</value>
+			</li>
+			<!-- Position -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_drugs"]/researchViewY</xpath>
+				<value>
+					<researchViewY>4.35</researchViewY>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_furniture"]/label</xpath>
+				<value>
+					<label>Actually Decent Recreation</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_furniture"]/description</xpath>
+				<value>
+					<description>Recreation so decent, you think it's better than it really is!</description>
+				</value>
+			</li>
+			<!-- Position -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_III_furniture"]/researchViewY</xpath>
+				<value>
+					<researchViewY>4.85</researchViewY>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_IV"]/label</xpath>
+				<value>
+					<label>The First Barrier</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_IV"]/description</xpath>
+				<value>
+					<description>"And then, the Mod Author ran out of motivation to keep working on the mod."</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_IV_linkable"]/label</xpath>
+				<value>
+					<label>FTEOE: Actually Having Fun</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_IV_linkable"]/description</xpath>
+				<value>
+					<description>"He spent days playing Stellaris, coding for his "From The Edge of Eternity" mod as his motivation was there, instead."</description>
+				</value>
+			</li>
+			<!-- Position -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_IV_linkable"]/researchViewY</xpath>
+				<value>
+					<researchViewY>1.55</researchViewY>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_IV_cosmicturrets_III"]/label</xpath>
+				<value>
+					<label>True Torture Turrets</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_IV_cosmicturrets_III"]/description</xpath>
+				<value>
+					<description>They're gonna wish that they were processed into Torture Liquid.</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_V"]/label</xpath>
+				<value>
+					<label>Truth of Ascension</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_V"]/description</xpath>
+				<value>
+					<description>"Then came the day that he wanted to make extra roleplay value for Stellaris, and had to wait 10+ minutes for his modpack to be merged, resulting in him spending hours on this mod after he got hooked writing for it again. He was even going to be releasing the mod on 4/20/2021, right after he upgraded his PC."</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_V_breakthrough"]/label</xpath>
+				<value>
+					<label>The Brink of Torture</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_V_breakthrough"]/description</xpath>
+				<value>
+					<description>"Then he realized the memory sticks didn't fit."</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_base"]/label</xpath>
+				<value>
+					<label>Secrets Of Torture</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_base"]/description</xpath>
+				<value>
+					<description>"He produced a litre of Torture Liquid that day."</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_linkable_I"]/label</xpath>
+				<value>
+					<label>Better Better Torture</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_linkable_I"]/description</xpath>
+				<value>
+					<description>Do you think this is funny? Do you think that YOU'RE funny? Look at you, running around, torturing people for what? Greed? Sadism? Because you can?\n\nYou're not funny. I will come out of your god#### monitor this instant to turn YOU into torture liquid. That's right. Start apologising. Good mortal.</description>
+				</value>
+			</li>
+			<!-- Position -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_linkable_I"]/researchViewY</xpath>
+				<value>
+					<researchViewY>1.55</researchViewY>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_linkable_II"]/label</xpath>
+				<value>
+					<label>Consciousness Amplification</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_linkable_II"]/description</xpath>
+				<value>
+					<description>Bigger consciousness means more ability to experience pain, which means more Torture Liquid / Torture Matter.</description>
+				</value>
+			</li>
+			<!-- Position -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_linkable_II"]/researchViewY</xpath>
+				<value>
+					<researchViewY>0.05</researchViewY>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_bionics"]/label</xpath>
+				<value>
+					<label>Torture Bionics</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_bionics"]/description</xpath>
+				<value>
+					<description>Man, I wish I had one of those things so I could coME OUT OF YOUR MONITOR AND STRANGE YOU TO DEATH-</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_weaponry"]/label</xpath>
+				<value>
+					<label>Torture Guns</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_weaponry"]/description</xpath>
+				<value>
+					<description>And now, not even the Torture Liquid Unions can stand up to us.</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_armor"]/label</xpath>
+				<value>
+					<label>Torture Armor</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_armor"]/description</xpath>
+				<value>
+					<description>And now, not even the Torture Liquid Unions can break us.</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_power"]/label</xpath>
+				<value>
+					<label>Torture Power</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_power"]/description</xpath>
+				<value>
+					<description>Spoiler alert: It's a ####ton of treadmills.</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_hydroponics"]/label</xpath>
+				<value>
+					<label>Reality Enslavement</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_hydroponics"]/description</xpath>
+				<value>
+					<description>Four universes. A ####ton of slaves. Endless profit. Mind the rebellions!</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_medicine"]/label</xpath>
+				<value>
+					<label>Torture Medicine</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_medicine"]/description</xpath>
+				<value>
+					<description>Almost as effective as the mod author reaching his hands through the monitor and choking you to death.</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_food"]/label</xpath>
+				<value>
+					<label>Torture Food</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_food"]/description</xpath>
+				<value>
+					<description>You're such a sadist now that you don't have to pretend you're enjoying it; you genuinely are.</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_drugs"]/label</xpath>
+				<value>
+					<label>Torture Drugs</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_drugs"]/description</xpath>
+				<value>
+					<description>Who's being tortured? The drugs or the person? The answer is yes.</description>
+				</value>
+			</li>
+			<!-- Position -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_drugs"]/researchViewY</xpath>
+				<value>
+					<researchViewY>4.15</researchViewY>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_furniture"]/label</xpath>
+				<value>
+					<label>Torture for Joy</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_furniture"]/description</xpath>
+				<value>
+					<description>It's literally just masochism at this point.</description>
+				</value>
+			</li>
+			<!-- Position -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_furniture"]/researchViewY</xpath>
+				<value>
+					<researchViewY>4.65</researchViewY>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_final"]/label</xpath>
+				<value>
+					<label>The Salvation of Torture</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VI_final"]/description</xpath>
+				<value>
+					<description>"Thankfully, the mod author could order what he needed from Amazon, and his components would be in the very next day!"</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VII"]/label</xpath>
+				<value>
+					<label>Horror</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_VII"]/description</xpath>
+				<value>
+					<description>"And then he had to buy the GPU. And it was in the middle of a major shortage.\n\nAnd the GPU needed a new power supply because it was lacking enough eight-pin power connectors."</description>
+				</value>
+			</li>
+			
+			
+			<!-- Label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_infinite"]/label</xpath>
+				<value>
+					<label>I'M COMING FOR YOU</label>
+				</value>
+			</li>
+			<!-- Description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ResearchProjectDef[defName="SNS_Research_infinite"]/description</xpath>
+				<value>
+					<description>"None expected for Earth to be rendered sterile any time soon, nor did anyone expect for the oceans to boil away and be replaced with Torture Liquid overnight. All across the planet's surface was written: '#### YOU, PLAYER. I'VE ASCENDED TO THE NEXT PLANE OF EXISTENCE, AND I'M COMING TO TURN YOU INTO MY NEXT TORTURE PATTERN-AI' repeatedly in a small font."\n\n[[NOTE: This research can NOT be completed. Ever. Not even using an item that instantly finishes a research will NOT work on this, as this research will just reset itself back to zero.]]\n\nThe number of TechProf Subpersona Cores you've probably wasted on this research:"</description>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

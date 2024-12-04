@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>SNS AOTC: True Pinnacle of Creation</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations>
+			<!-- Gen4 Medicine -->
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Medicine_Pinnacle"]/label</xpath>
+				<value>
+					<label>Curse of Eternity</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Medicine_Pinnacle"]/description</xpath>
+				<value>
+					<description>A kit full of nothing but Torture Matter and tools made from Torture Matter. It is most ideal for being used to keep torture victims alive for longer, so that they may produce a theoretically infinite amount of Torture Liquid.</description>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

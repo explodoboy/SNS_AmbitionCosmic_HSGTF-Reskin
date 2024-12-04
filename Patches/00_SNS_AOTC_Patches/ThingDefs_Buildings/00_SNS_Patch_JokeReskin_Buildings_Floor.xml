@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Science Never Stops: Ambition of the Cosmic</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations>
+			<!-- Starsteel tile -->
+			<!-- Thing name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/TerrainDef[defName="SNS_UnobtainiumTile"]/label</xpath>
+				<value>
+					<label>unbalancedite tile</label>
+				</value>
+			</li>
+			<!-- Thing description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/TerrainDef[defName="SNS_UnobtainiumTile"]/description</xpath>
+				<value>
+					<description>Tiles made of pure hatred and vitriol, protected by thin sheets of unbalancedite, atop a plasteel foundation. Rooms made of unbalancedite tiles are pretty, highly clean, and also probably violate several galactic treaties.\n\nExtra-clean rooms improve outcomes in hospitals, research labs, and kitchens. This tile is very slow to build.\n\nThis flooring is considered worthy of Royalty. [This floor satisfies pawns with a Royal title from RimWorld Royalty DLC]</description>
+				</value>
+			</li>
+			
+			<!-- Cosmic tile -->
+			<!-- Thing name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/TerrainDef[defName="SNS_CosmicMatterTile"]/label</xpath>
+				<value>
+					<label>overpowered tile</label>
+				</value>
+			</li>
+			<!-- Thing description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/TerrainDef[defName="SNS_CosmicMatterTile"]/description</xpath>
+				<value>
+					<description>Tiles made of Overpowered Alloy, infused with liberal amounts of Torture Liquid. Overpowered tiles are incredibly clean, beautiful, and also without a shadow of a doubt violate several galactic treaties.\n\nExtra-clean rooms improve outcomes in hospitals, research labs, and kitchens. This tile is very, very slow to build.\n\nThis flooring is considered worthy of Royalty, perhaps enough to even impress an Emperor. [This floor satisfies pawns with a Royal title from RimWorld Royalty DLC]</description>
+				</value>
+			</li>
+			
+			<!-- Eternium tile -->
+			<!-- Thing name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/TerrainDef[defName="SNS_EterniumTile"]/label</xpath>
+				<value>
+					<label>torture matter tile</label>
+				</value>
+			</li>
+			<!-- Thing description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/TerrainDef[defName="SNS_EterniumTile"]/description</xpath>
+				<value>
+					<description>Decadent tiles made of Overpowered Alloy and Torture Matter, infused with copious amounts of Torture Liquid to add insult to unfathomably injury. Torture matter tiles actively seek out filth and obliterate it with the fury of ten-thousand Torture Liquid Union executives. Its beauty comes from the sheer loss of lives that made just a single one of these tiles.\n\nExtra-clean rooms improve outcomes in hospitals, research labs, and kitchens. This tile is extremely slow to build.\n\nThis flooring is considered beyond worthy of Royalty. Some would even argue that the question should be if Royalty are worthy of the flooring! [This floor satisfies pawns with a Royal title from RimWorld Royalty DLC]</description>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

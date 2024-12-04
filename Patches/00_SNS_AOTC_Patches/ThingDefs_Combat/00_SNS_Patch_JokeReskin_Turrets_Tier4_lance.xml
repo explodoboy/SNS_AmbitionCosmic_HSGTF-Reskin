@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Science Never Stops: Ambition of the Cosmic</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_Bullet_Lance"]/label</xpath>
+				<value>
+					<label>Overpowered Cannon projectile</label>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_Lance"]/label</xpath>
+				<value>
+					<label>Automated Lance gun</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_Lance"]/description</xpath>
+				<value>
+					<description>The gun of an automated lance.</description>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_HighStorageLance"]/label</xpath>
+				<value>
+					<label>Automated Lance gun</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_HighStorageLance"]/description</xpath>
+				<value>
+					<description>The gun of an automated lance.</description>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_PerditionHighStorageLance"]/label</xpath>
+				<value>
+					<label>Automated Lance gun</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_PerditionHighStorageLance"]/description</xpath>
+				<value>
+					<description>The gun of an automated lance.</description>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Turret_Lance"]/label</xpath>
+				<value>
+					<label>Automated Lance</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Turret_Lance"]/description</xpath>
+				<value>
+					<description>A highly advanced automatic turret that uses an Overpowered Cannon as its weapon of choice. Fires very slowly and consumes five Vitriolic Fuel Cells per shot. Must be reloaded occasionally with Vitriolic Fuel Cells.\n\nYou should put it behind plenty of defenses, lest the turret hit itself, and possibly later break the Vitriolic Fuel Cells within and unleash an age of darkness across the entire galaxy.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Turret_HighStorageLance"]/label</xpath>
+				<value>
+					<label>Deep Storage Automated Lance</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Turret_HighStorageLance"]/description</xpath>
+				<value>
+					<description>A highly advanced automatic turret that uses an Overpowered Cannon as its weapon of choice. Fires very slowly and consumes five Vitriolic Fuel Cells per shot. Must be reloaded occasionally with Vitriolic Fuel Cells.\n\nYou should put it behind plenty of defenses, lest the turret hit itself, and possibly later break the Vitriolic Fuel Cells within and unleash an age of darkness across the entire galaxy.\n\nThis specific variant has five times the fuel capacity as the standard variant and isn't as well armored.</description>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_PerditionLance"]/label</xpath>
+				<value>
+					<label>Perdition Automated Lance gun</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_PerditionLance"]/description</xpath>
+				<value>
+					<description>The gun of a perdition automated lance.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Turret_PerditionLance"]/label</xpath>
+				<value>
+					<label>Perdition Automated Lance</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Turret_PerditionLance"]/description</xpath>
+				<value>
+					<description>A highly advanced automatic turret that uses an Overpowered Cannon as its weapon of choice. Fires somewhat slowly and consumes five Vitriolic Fuel Cells per shot. Must be reloaded occasionally with Vitriolic Fuel Cells. It is cooled by Torture Liquid to increase its fire rate, partially physically and partially by pure cold fury.\n\nYou should put it behind plenty of defenses, lest the turret hit itself, and possibly later break the Vitriolic Fuel Cells within and unleash an age of darkness across the entire galaxy.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Turret_PerditionHighStorageLance"]/label</xpath>
+				<value>
+					<label>Deep Storage Perdition Automated Lance</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Turret_PerditionHighStorageLance"]/description</xpath>
+				<value>
+					<description>A highly advanced automatic turret that uses an Overpowered Cannon as its weapon of choice. Fires somewhat slowly and consumes five Vitriolic Fuel Cells per shot. Must be reloaded occasionally with Vitriolic Fuel Cells. It is cooled by Torture Liquid to increase its fire rate, partially physically and partially by pure cold fury.\n\nYou should put it behind plenty of defenses, lest the turret hit itself, and possibly later break the Vitriolic Fuel Cells within and unleash an age of darkness across the entire galaxy.\n\nThis specific variant has five times the fuel capacity as the standard variant and isn't as well armored.</description>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_EternalLance"]/label</xpath>
+				<value>
+					<label>Eternal Automated Lance gun</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_EternalLance"]/description</xpath>
+				<value>
+					<description>The gun of an eternal automated lance.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Turret_EternalLance"]/label</xpath>
+				<value>
+					<label>Eternal Automated Lance</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Turret_EternalLance"]/description</xpath>
+				<value>
+					<description>A highly advanced automatic turret that uses an overcharged Overpowered Cannon as its weapon of choice. It does not require refurbishment or refueling. Every three seconds it unleashes a burst of two Overpowered Cannon projectiles.\n\nYou should put it behind plenty of defenses, lest the turret hit itself, and possibly later break the Vitriolic Fuel Cells within and unleash an age of darkness across the entire galaxy.</description>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_Bullet_EnigmaticLance"]/label</xpath>
+				<value>
+					<label>enigmatic lance projectile</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_EnigmaticLance"]/label</xpath>
+				<value>
+					<label>Enigmatic Lance gun</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_EnigmaticLance"]/description</xpath>
+				<value>
+					<description>The gun of an enigmatic lance.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Turret_EnigmaticLance"]/label</xpath>
+				<value>
+					<label>Enigmatic Lance</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Turret_EnigmaticLance"]/description</xpath>
+				<value>
+					<description>A highly volatile turret that uses an overcharged Overpowered Cannon as its weapon of choice. It does not require refurbishment or refueling. It takes a while to charge, before unleashing a storm of low-energy Torture Matter projectiles that unleash untold devastation.\n\nYou should put it behind plenty of defenses, lest the turret hit itself, and possibly unleash an everlasting age of darkness across the entire galaxy, and possibly further.</description>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

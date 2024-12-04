@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Science Never Stops: Ambition of the Cosmic</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations>
+			<!-- Generation 1 -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Reactor_I"]/label</xpath>
+				<value>
+					<label>Overpowered Reactor Generation 1</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Reactor_I"]/description</xpath>
+				<value>
+					<description>The Overpowered Reactor Generates 1 is a powerful power-generation device that perpetually enrages uranium to produce great amounts of energy. The uranium is wholly consumed in its own fury, leaving nothing left.\n\nWhile the reaction is safe inside the reactor, if containment is broken and the fuel is damaged, it is likely that all of the anger contained within the fuel cells will be unleashed in an instant, resulting in a massive and deadly explosion.\n\nStats: Generates 100K Watts for 1.1 years when fully fueled with 100 Overpowered Catalyst Fuel Cells.</description>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Reactor_I_Portable"]/label</xpath>
+				<value>
+					<label>Portable Overpowered Reactor Generation 1</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Reactor_I_Portable"]/description</xpath>
+				<value>
+					<description>The Portable Overpowered Reactor Generation 1 is a powerful power-generation device that utilizes Uranium's perpetually enrages uranium to produce great amounts of energy.\n\nThis Overpowered Reactor uses a streamlined design without any unnecessary parts to make the most out of the materials put into it. It is also surprisingly light and portable, making a great (yet dangerous around explosives) reactor for all operations across the universe.\n\nWhile the reaction is safe inside the reactor, if containment is broken and the fuel is damaged, it is likely that all of the anger contained within the fuel cells will be unleashed in an instant, resulting in a massive and deadly explosion.\n\nStats: Generates 100K Watts for 1.1 years when fully fueled with 100 Overpowered Catalyst Fuel Cells.</description>
+				</value>
+			</li>
+            
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Battery_I"]/label</xpath>
+				<value>
+					<label>Overpowered Battery Generation 1</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Battery_I"]/description</xpath>
+				<value>
+					<description>The Overpowered Battery Gen 1 stores vast amounts of energy with the power of friendship and genuine trust.\n\nHAH! Just kidding! It bludgeons every bit of energy that comes into it, shoves it in a bag, and puts it in a tiny cell so that no energy is lost when attempting to store it.\n\nThe Overpowered Battery will never combust or explode even when damaged. It is NOT immune to power surges, however.\n\nStats: Stores 10000 Watts at 100% efficiency</description>
+				</value>
+			</li>
+			
+			<!-- Generation 2 -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Reactor_II"]/label</xpath>
+				<value>
+					<label>Overpowered Reactor Generation 2</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Reactor_II"]/description</xpath>
+				<value>
+					<description>The Overpowered Matter Reactor converts pure, raw, and horrified Torture Liquid into an obscene amount of electrical energy. It twists, turns, gouges, burns, insults, belittles, humiliates, drips water slowly on, stares angrily at for prolonged periods of time, and in-general tortures Torture Liquid. Able to burn (the souls of the innocent) for three times as long and output 50% more energy than its predecessor when fully fueled, the Overpowered Reactor Generation 2 is truly superior in every way to its Generation 1 counterpart.\n\nThe Reactor is built into the floor, so you can show the reactor that you were and always will be above it. (You still can't build anything on top of it.)\n\nStats: Generates 150K Watts for 3.3 years when fully fueled with 1000 Torture Liquid.</description>
+				</value>
+			</li>
+            
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Reactor_II_Portable"]/label</xpath>
+				<value>
+					<label>Portable Overpowered Reactor Generation 2</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Reactor_II_Portable"]/description</xpath>
+				<value>
+					<description>The Portable Overpowered Matter Reactor converts pure, raw, and horrified Torture Liquid into an obscene amount of electrical energy. It twists, turns, gouges, burns, insults, belittles, humiliates, drips water slowly on, stares angrily at for prolonged periods of time, and in-general tortures Torture Liquid. Able to burn (the souls of the innocent) for three times as long and output 50% more energy than its predecessor when fully fueled, the Overpowered Matter Reactor is truly superior in every way to its Generation 1 counterpart.\n\nThis Overpowered Reactor uses a streamlined design without any unnecessary parts to make the most out of the materials put into it. It is also surprisingly light and portable, making the perfect mobile reactor for all operations across the universe.\n\nStats: Generates 150K Watts for 3.3 years when fully fueled with 1000 Overpowered Matter.</description>
+				</value>
+			</li>
+            
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Battery_II"]/label</xpath>
+				<value>
+					<label>Overpowered Battery Generation 2</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Battery_II"]/description</xpath>
+				<value>
+					<description>The Overpowered Battery Gen 2 is the perfect battery, able to brutally capture very extreme amounts of energy at a time without any efficiency loss. The Generation II Overpowered Battery will never combust or explode regardless of damage or condition, but is NOT immune to power surges.\n\nStats: Stores 100K Watts at 100% efficiency.</description>
+				</value>
+			</li>
+			
+			<!-- Generation 3 -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Reactor_III"]/label</xpath>
+				<value>
+					<label>Overpowered Reactor Generation Omega</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Reactor_III"]/description</xpath>
+				<value>
+					<description>The Overpowered Reactor Generation Omega draws pure Torture Liquid straight from the Realm of Torture, allowing for it to ### ####### ### ##### ### ####### ###### ## #####, ## ### ####### ###### #### ### ### ###. #### #### ###### #### ### #######-####### ####### #### ## ##########, and thus not requiring any energy input. The amount of energy the Generation Omega reactor can generate is... Truly horrifying.\n\nStats: Generates 1.5M Watts.</description>
+				</value>
+			</li>
+            
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Battery_III"]/label</xpath>
+				<value>
+					<label>Overpowered Battery Generation Omega</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Battery_III"]/description</xpath>
+				<value>
+					<description>The Overpowered Battery Generation Omega is the ultimate battery, 'employing' subatomic midget slaves to continually store energy. Unlike the hydroponics basins, however, the midgets will never escape. Even if the battery is destroyed.\n\nTheOverpowered Battery Generation Omega will never combust or explode no matter what, but is NOT immune to power surges.\n\nStats: Stores 1M Watts.</description>
+				</value>
+			</li>
+            
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

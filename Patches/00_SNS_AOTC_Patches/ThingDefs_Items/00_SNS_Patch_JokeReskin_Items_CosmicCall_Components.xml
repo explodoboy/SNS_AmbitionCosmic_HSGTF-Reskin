@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Science Never Stops: Ambition of the Cosmic</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations>
+			<!-- Fracture of Greatness -->
+			<!-- Replace thing -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_CosmicCall_Component_I"]/label</xpath>
+				<value>
+					<label>The Eternal Fracture (Abyssal Component #1/5)</label>
+				</value>
+			</li>
+			<!-- Replace thing -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_CosmicCall_Component_I"]/description</xpath>
+				<value>
+					<description>A mysterious glass-like shard composed of an unknown material, infused with a wondrously pained material. It flows with immense energy and suffering.\n\nShock therapy seems to be especially effectove on it, amplifying the already high amounts of torture within it as more energy is pumped through it.\n\nOn one side of the crystal the following is engraved in an unknown language: "We do not deserve to be healed, to be restored. Let us rest. Let them rest."\n"Forget us."</description>
+				</value>
+			</li>
+			
+			<!-- Forbidden Knowledge -->
+			<!-- Replace thing -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_CosmicCall_Component_II"]/label</xpath>
+				<value>
+					<label>Forbidden Knowledge (Abyssal Component #2/5)</label>
+				</value>
+			</li>
+			<!-- Replace thing -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_CosmicCall_Component_II"]/description</xpath>
+				<value>
+					<description>A mysterious floppy-disk-like device made of pure Overpowered Alloy, infused with trace amounts of unfathomable suffering.\n\nIt not only stores an unfathomably advanced cache of data, but also the tortured memories of billions of living beings.\n\nOn the back of the drive the following is written in an unknown language: "We've made a grave mistake. We're not meant for this place. Now, all we've left pain and suffering in our wakes. May we too be forgotten with this technology."\n"Hide us."</description>
+				</value>
+			</li>
+			
+			<!-- Beckoning of Desire -->
+			<!-- Replace thing -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_CosmicCall_Component_III"]/label</xpath>
+				<value>
+					<label>Beckoning of Desire (Abyssal Component #3/5)</label>
+				</value>
+			</li>
+			<!-- Replace thing -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_CosmicCall_Component_III"]/description</xpath>
+				<value>
+					<description>A curious little motor-like device made mostly out of Overpowered Alloy, filled with dense Torture Liquid.\n\nWhen powered, it creates a psychic field that violently tears at the minds of those anywhere remotely nearby. It is too dangerous to be used in any capacity, lest the entire planet be reduced to insanity and death.\n\nOn the side of the motor the following is written in an unknown language: "We were desperate. We didn't want to fade out. So we sacrificed. Because the fallen wanted it; for us to live. We could have never known that our dreams would have distorted so much when we came here."\n"Resist us."</description>
+				</value>
+			</li>
+			
+			<!-- Astral Refuter -->
+			<!-- Replace thing -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_CosmicCall_Component_IV"]/label</xpath>
+				<value>
+					<label>Ambition's Refuter (Abyssal Component #4/5)</label>
+				</value>
+			</li>
+			<!-- Replace thing -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_CosmicCall_Component_IV"]/description</xpath>
+				<value>
+					<description>A strange circuit-board-like device made of Overpowered Alloy and what appears to be solidified Torture Liquid, said Torture Liquid (solid?) acting as the wiring for the device.\n\nDespite the fact that the Torture Liquid should be in such great agony that it shouldn't be able to conduct anything, it runs exceptionally well.\n\nOn the bottom of the board the following is engraved in an unknown language: "We fled again. This time, somewhere we couldn't become any worse, and also somewhere we couldn't become any better. Our Ambition was lost, refuted by the In-Between."\n"Refute us."</description>
+				</value>
+			</li>
+			
+			<!-- Amplifier of Ambition -->
+			<!-- Replace thing -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_CosmicCall_Component_V"]/label</xpath>
+				<value>
+					<label>Amplifier of Torture (Abyssal Component #5/5)</label>
+				</value>
+			</li>
+			<!-- Replace thing -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_CosmicCall_Component_V"]/description</xpath>
+				<value>
+					<description>A strange device unlike any other, that energises whatever can pass through it. It instantly vaporises water, makes Abyssal Matter instantly dissolve into nothingness, and make Abyssal Alloy inert, making it nothing more than an expensive, dilute Plasteel.\n\nIts slot seems to be shaped very specifically, set to fit a prism-shaped object.\n\nEngraved on a non-important part of the object the following is written in an unknown language: "The Fabric screams in agony. None can fathom this pain. We deserve this fate."\n"Use us."</description>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

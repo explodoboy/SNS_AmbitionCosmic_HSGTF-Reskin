@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Vanilla Achievements Expanded</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationFindMod">
+			<mods>
+				<li>Science Never Stops: Ambition of the Cosmic</li>
+			</mods>
+			<match Class="PatchOperationSequence">
+				<operations>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ResearchTech_Gen0"]/label</xpath>
+						<value>
+							<label>#### it, not this #### again!</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ResearchTech_Gen0"]/description</xpath>
+						<value>
+							<description>Research the [The Road to Heaven] technology.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_BuildThing_Linkable_Unlocker_GenI"]/label</xpath>
+						<value>
+							<label>Are You Really Going To Do This?</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_BuildThing_Linkable_Unlocker_GenI"]/description</xpath>
+						<value>
+							<description>Construct an Unbalanced Analyzer.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ResearchTech_Gen1_Unobtainer"]/label</xpath>
+						<value>
+							<label>OH GOD, THEY SKINNED HIM! ALIVE!</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ResearchTech_Gen1_Unobtainer"]/description</xpath>
+						<value>
+							<description>Research the [Let's Start Paving That Road] technology and enter Generation 1 of Science Never Stops: HAS SCIENCE GONE TOO FAR?!</description>
+						</value>
+					</li>
+
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_BuildThing_Linkable_Unlocker_GenI"]/label</xpath>
+						<value>
+							<label>This Is Gonna Go Badly... For Everyone Else.</label>
+						</value>
+					</li>
+                    <li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_BuildThing_Linkable_Unlocker_GenI"]/description</xpath>
+						<value>
+							<description>Construct an Overpowered Analyzer.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ResearchTech_Gen1_Bridge"]/label</xpath>
+						<value>
+							<label>Yes, Torture Is A Respected Branch Of Science.</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ResearchTech_Gen1_Bridge"]/description</xpath>
+						<value>
+							<description>Research the [Torture Theory] technology.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ResearchTech_Gen2_Ceiling_I"]/label</xpath>
+						<value>
+							<label>The Mod Author Hopes This Was All Worth It</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ResearchTech_Gen2_Ceiling_I"]/description</xpath>
+						<value>
+							<description>Research the [Truth of Ascension] technology.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ResearchTech_Gen2_Ceiling_II"]/label</xpath>
+						<value>
+							<label>Because The Mod Author Doesn't Think It Was</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ResearchTech_Gen2_Ceiling_II"]/description</xpath>
+						<value>
+							<description>Research the [The Brink of Torture] technology.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_BuildThing_Linkable_Unlocker_GenIII"]/label</xpath>
+						<value>
+							<label>To Perfect Torture</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_BuildThing_Linkable_Unlocker_GenIII"]/description</xpath>
+						<value>
+							<description>Construct the Call of Torture.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ResearchTech_Gen3_Beginning"]/label</xpath>
+						<value>
+							<label>And Ascend Further</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ResearchTech_Gen3_Beginning"]/description</xpath>
+						<value>
+							<description>Research the [Secrets Of Torture] technology.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ResearchTech_Gen3_UntoZenith"]/label</xpath>
+						<value>
+							<label>Rapidly Approaching The Limits Of The Mind</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ResearchTech_Gen3_UntoZenith"]/description</xpath>
+						<value>
+							<description>Research the [The Salvation of Torture] technology.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ResearchTech_Gen4"]/label</xpath>
+						<value>
+							<label>At Last, Perfection</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ResearchTech_Gen4"]/description</xpath>
+						<value>
+							<description>Finish the technology tree of Science Never Stops: HAS SCIENCE GONE TOO FAR?! by researching the [Horror] technology.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ResearchTech_infinite"]/label</xpath>
+						<value>
+							<label>Fuck you. I am still better than you. -explodoboy</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ResearchTech_infinite"]/description</xpath>
+						<value>
+							<description>Spend a TechProf Subpersona Core on the [The Lost] technology. Farewell, it's all down the spiral from here.</description>
+						</value>
+					</li>
+					
+				</operations>
+			</match>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

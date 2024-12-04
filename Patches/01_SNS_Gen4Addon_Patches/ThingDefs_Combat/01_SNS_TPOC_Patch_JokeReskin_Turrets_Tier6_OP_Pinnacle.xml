@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>SNS AOTC: True Pinnacle of Creation</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_Bullet_Pinnacle"]/label</xpath>
+				<value>
+					<label>Stalwart Fabric Projectile</label>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_Pinnacle"]/label</xpath>
+				<value>
+					<label>bastion gun</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_Pinnacle"]/description</xpath>
+				<value>
+					<description>The gun of a Bastion of Stability</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Turret_Pinnacle"]/label</xpath>
+				<value>
+					<label>Bastion of Stability</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Turret_Pinnacle"]/description</xpath>
+				<value>
+					<description>The ultimate defensive weapon, the Bastion of Stability was made specifically to protect against troublesome forces who want to stop the production of Torture Liquid and Torture Matter. Just keep it away from the front lines; it can hit itself if an enemy gets too close.</description>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

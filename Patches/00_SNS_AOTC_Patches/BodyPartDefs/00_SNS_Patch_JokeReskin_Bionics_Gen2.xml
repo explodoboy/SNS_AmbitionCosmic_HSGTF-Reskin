@@ -1,0 +1,986 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Science Never Stops: Ambition of the Cosmic</li>
+    </mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+        
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicEye_GenII"]/label</xpath>
+				<value>
+					<label>overpowered eye</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicEye_GenII"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an overpowered eye</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicEye_GenII"]/description</xpath>
+				<value>
+					<description>An installed overpowered eye.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicEye_GenII"]/label</xpath>
+				<value>
+					<label>overpowered eye</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicEye_GenII"]/description</xpath>
+				<value>
+					<description>An extremely advanced artifical eye made of Overpowered Alloy and Torture Liquid. The Torture Liquid is stored in the iris, and guarentees that anyone foolish enough to stare into it for long enough will experience a total obliteration of the mind, followed by the production of a few drops of Torture Liquid.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicEye_GenII"]/label</xpath>
+				<value>
+					<label>install overpowered eye</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicEye_GenII"]/description</xpath>
+				<value>
+					<description>Install an overpowered eye.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicEye_GenII"]/jobString</xpath>
+				<value>
+					<jobString>Installing overpowered eye.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicEar_GenII"]/label</xpath>
+				<value>
+					<label>overpowered ear</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicEar_GenII"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an overpowered ear</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicEar_GenII"]/description</xpath>
+				<value>
+					<description>An installed overpowered ear.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicEar_GenII"]/label</xpath>
+				<value>
+					<label>overpowered ear</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicEar_GenII"]/description</xpath>
+				<value>
+					<description>A highly advanced artifical ear made of high-strength Overpowered Alloy and Torture Liquid. It is incredibly tough, able to hear the pained screams of any nearby Torture Liquid canisters, and has an on-board subpersona-level AI that amplifies the screaming. Should the terms-of-use be violated, the Torture Liquid within will be released into the ear canal, resulting in the obliteration of the mind, followed by the production of a few drops of Torture Liquid.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicEar_GenII"]/label</xpath>
+				<value>
+					<label>install overpowered ear</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicEar_GenII"]/description</xpath>
+				<value>
+					<description>Install an overpowered ear.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicEar_GenII"]/jobString</xpath>
+				<value>
+					<jobString>Installing overpowered ear.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicNose_GenII"]/label</xpath>
+				<value>
+					<label>overpowered nose</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicNose_GenII"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an overpowered nose</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicNose_GenII"]/description</xpath>
+				<value>
+					<description>An installed overpowered nose.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicNose_GenII"]/label</xpath>
+				<value>
+					<label>overpowered nose</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicNose_GenII"]/description</xpath>
+				<value>
+					<description>A nose made of Overpowered Alloy and Torture Liquid, able to breathe in very, very high amounts of air in short periods of time. You can also quite literally smell fear with it!</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicNose_GenII"]/label</xpath>
+				<value>
+					<label>install overpowered nose</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicNose_GenII"]/description</xpath>
+				<value>
+					<description>Install an overpowered nose.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicNose_GenII"]/jobString</xpath>
+				<value>
+					<jobString>Installing overpowered nose.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicJaw_GenII"]/label</xpath>
+				<value>
+					<label>overpowered jaw</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicJaw_GenII"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an overpowered jaw</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicJaw_GenII"]/description</xpath>
+				<value>
+					<description>An installed overpowered jaw.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicJaw_GenII"]/label</xpath>
+				<value>
+					<label>overpowered jaw</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicJaw_GenII"]/description</xpath>
+				<value>
+				<description>A highly advanced artifical jaw made of high-strength Overpowered Alloy and Torture Liquid. It uses a hydraulic system with Torture Liquid as its fluid, promising the flavor of more than a hundred-thousand lost innocent lives in every bite! It's a horrible negotation tool, but everybody's too intimidated/afraid to go against your word.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicJaw_GenII"]/label</xpath>
+				<value>
+					<label>install overpowered jaw</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicJaw_GenII"]/description</xpath>
+				<value>
+					<description>Install an overpowered jaw.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicJaw_GenII"]/jobString</xpath>
+				<value>
+					<jobString>Installing overpowered jaw.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicHead_GenII"]/label</xpath>
+				<value>
+					<label>overpowered head shroud</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicHead_GenII"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an overpowered head shroud</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicHead_GenII"]/description</xpath>
+				<value>
+					<description>An installed overpowered head shroud.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicHead_GenII"]/label</xpath>
+				<value>
+					<label>overpowered head shroud</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicHead_GenII"]/description</xpath>
+				<value>
+					<description>Some surgically-implanted Overpowered Alloy armor for the head. While it doesn't provide any benefit over the natural body, it does make the head much more durable.\n\nWhile most of the plating can be hidden underneath the skin, some simply cannot be contained lest the Torture Liquid within destroy you from within.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicHead_GenII"]/label</xpath>
+				<value>
+					<label>install overpowered head shroud</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicHead_GenII"]/description</xpath>
+				<value>
+					<description>Install an overpowered head shroud.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicHead_GenII"]/jobString</xpath>
+				<value>
+					<jobString>Installing overpowered head shroud.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicNeck_GenII"]/label</xpath>
+				<value>
+					<label>overpowered neck shroud</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicNeck_GenII"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an overpowered neck shroud</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicNeck_GenII"]/description</xpath>
+				<value>
+					<description>An installed overpowered neck shroud.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicNeck_GenII"]/label</xpath>
+				<value>
+					<label>overpowered neck shroud</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicNeck_GenII"]/description</xpath>
+				<value>
+					<description>Some surgically-implanted Overpowered Alloy armor for the neck. While it doesn't provide any benefit over the natural body, it does make the neck much more durable.\n\nWhile most of the plating can be hidden underneath the skin, some simply cannot be contained lest the Torture Liquid within destroy you from within.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicNeck_GenII"]/label</xpath>
+				<value>
+					<label>install overpowered neck shroud</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicNeck_GenII"]/description</xpath>
+				<value>
+					<description>Install an overpowered neck shroud.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicNeck_GenII"]/jobString</xpath>
+				<value>
+					<jobString>Installing overpowered neck shroud.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicTorso_GenII"]/label</xpath>
+				<value>
+					<label>overpowered torso shroud</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicTorso_GenII"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an overpowered torso shroud</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicTorso_GenII"]/description</xpath>
+				<value>
+					<description>An installed overpowered torso shroud.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicTorso_GenII"]/label</xpath>
+				<value>
+					<label>overpowered torso shroud</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicTorso_GenII"]/description</xpath>
+				<value>
+					<description>A surgically-implanted Overpowered Alloy armor for the torso. While it doesn't provide any benefit over the natural body, it does make the torso much more durable.\n\nWhile most of the plating can be hidden underneath the skin, some simply cannot be contained lest the Torture Liquid within destroy you from within.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicTorso_GenII"]/label</xpath>
+				<value>
+					<label>install overpowered torso shroud</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicTorso_GenII"]/description</xpath>
+				<value>
+					<description>Install an overpowered torso shroud.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicTorso_GenII"]/jobString</xpath>
+				<value>
+					<jobString>Installing overpowered torso shroud.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicArm_GenII"]/label</xpath>
+				<value>
+					<label>overpowered arm</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicArm_GenII"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an overpowered arm</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicArm_GenII"]/description</xpath>
+				<value>
+					<description>An installed overpowered arm.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicArm_GenII"]/label</xpath>
+				<value>
+					<label>overpowered arm</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicArm_GenII"]/description</xpath>
+				<value>
+					<description>A highly advanced artifical arm made of high-strength Overpowered Alloy and Torture Liquid. The fury of the hundreds of thousands of innocent lives consumed to make this allows for its user to bend even Unbalancedite with ease.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicArm_GenII"]/label</xpath>
+				<value>
+					<label>nstall overpowered arm</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicArm_GenII"]/description</xpath>
+				<value>
+					<description>Install an overpowered arm.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicArm_GenII"]/jobString</xpath>
+				<value>
+					<jobString>Installing overpowered arm.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLeg_GenII"]/label</xpath>
+				<value>
+					<label>overpowered leg</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLeg_GenII"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an overpowered leg</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLeg_GenII"]/description</xpath>
+				<value>
+					<description>An installed overpowered leg.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicLeg_GenII"]/label</xpath>
+				<value>
+					<label>overpowered leg</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicLeg_GenII"]/description</xpath>
+				<value>
+					<description>A highly advanced artifical leg made of high-strength Overpowered Alloy and Torture Liquid. The memory of the hundreds of thousands consumed to make this trying to escape from processing into Torture Liquid (and less importantly, certain death) allows for its user to run very, very fast.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLeg_GenII"]/label</xpath>
+				<value>
+					<label>install overpowered leg</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLeg_GenII"]/description</xpath>
+				<value>
+					<description>Install an overpowered leg.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLeg_GenII"]/jobString</xpath>
+				<value>
+					<jobString>Installing overpowered leg.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicSpine_GenII"]/label</xpath>
+				<value>
+					<label>overpowered spine</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicSpine_GenII"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an overpowered spine</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicSpine_GenII"]/description</xpath>
+				<value>
+					<description>An installed overpowered spine.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicSpine_GenII"]/label</xpath>
+				<value>
+					<label>overpowered spine</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicSpine_GenII"]/description</xpath>
+				<value>
+					<description>A highly advanced artifical spine made of high-strength Overpowered Alloy and Torture Liquid. Further improved by the broken spikes of the hundreds of thousands of lives consumed to make this, ### ##### # ###### #### ############# ###### ######## ### ## ###### ##### ########### #######.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicSpine_GenII"]/label</xpath>
+				<value>
+					<label>install overpowered spine</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicSpine_GenII"]/description</xpath>
+				<value>
+					<description>Install an overpowered spine.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicSpine_GenII"]/jobString</xpath>
+				<value>
+					<jobString>Installing overpowered spine.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicBrain_GenII"]/label</xpath>
+				<value>
+					<label>overpowered neural enchanter</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicBrain_GenII"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an overpowered neural enchanter</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicBrain_GenII"]/description</xpath>
+				<value>
+					<description>An installed overpowered neural enchanter.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicBrain_GenII"]/label</xpath>
+				<value>
+					<label>overpowered neural enchanter</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicBrain_GenII"]/description</xpath>
+				<value>
+					<description>A highly advanced brain 'implant' that covers the entirety of the brain and replaces some parts not related to personality and emotion, but this means that it cannot be removed without destruction of the brain or replacement devices. It is possible, however, to replace it with other neural enchanters.\n\nInstalled Neural Enchanters prevent the development of Alzheimers and Dementia, but cannot cure existing conditions.\n\nBeing made of Overpowered Alloy and Torture Liquid, it is incredibly durable, far more than the natural body, but also incredibly stupid to put so close to your brain. Torture Liquid comes from the BRAIN. You have a LOT OF TORTURE LIQUID. Next to your BRAIN. Which is DANGEROUS.\n\n####### morons...</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicBrain_GenII"]/label</xpath>
+				<value>
+					<label>install overpowered neural enchanter</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicBrain_GenII"]/description</xpath>
+				<value>
+					<description>Install an overpowered neural enchanter.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicBrain_GenII"]/jobString</xpath>
+				<value>
+					<jobString>Installing overpowered neural enchanter.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicHeart_GenII"]/label</xpath>
+				<value>
+					<label>overpowered heart</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicHeart_GenII"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an overpowered heart</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicHeart_GenII"]/description</xpath>
+				<value>
+					<description>An installed overpowered heart.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicHeart_GenII"]/label</xpath>
+				<value>
+					<label>overpowered heart</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicHeart_GenII"]/description</xpath>
+				<value>
+					<description>A highly advanced blood pump that replaces the heart. It 'enhances' the bloodstream with Torture Liquid, allowing it to pump blood safely at higher pressures, and also threaten blood with processing into Torture Liquid if it tries to escape the body.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicHeart_GenII"]/label</xpath>
+				<value>
+					<label>install overpowered heart</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicHeart_GenII"]/description</xpath>
+				<value>
+					<description>Install an overpowered heart.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicHeart_GenII"]/jobString</xpath>
+				<value>
+					<jobString>Installing overpowered heart.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLung_GenII"]/label</xpath>
+				<value>
+					<label>overpowered lung</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLung_GenII"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an overpowered lung</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLung_GenII"]/description</xpath>
+				<value>
+					<description>An installed overpowered lung.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicLung_GenII"]/label</xpath>
+				<value>
+					<label>overpowered lung</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicLung_GenII"]/description</xpath>
+				<value>
+					<description>A highly advanced lung-like device that collects pure oxygen through normal breathing. Being made of Overpowered Alloy and Torture Liquid, you can be sure that there's something horrible going on inside the lungs, but a Non-Disclosure Agreement prevents me (the mod author) from telling you.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLung_GenII"]/label</xpath>
+				<value>
+					<label>install overpowered lung</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLung_GenII"]/description</xpath>
+				<value>
+					<description>Install a overpowered lung.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLung_GenII"]/jobString</xpath>
+				<value>
+					<jobString>Installing overpowered lung.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicKidney_GenII"]/label</xpath>
+				<value>
+					<label>overpowered kidney</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicKidney_GenII"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an overpowered kidney</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicKidney_GenII"]/description</xpath>
+				<value>
+					<description>An installed overpowered kidney.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicKidney_GenII"]/label</xpath>
+				<value>
+					<label>overpowered kidney</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicKidney_GenII"]/description</xpath>
+				<value>
+					<description>A highly advanced blood filtration device that filters faster and better than any natural kidney ever could. It is not only able to handle an extremely high bloodflow, but also optionally torture the entirety of your body at once, without any additional cost!\n\nThat was a threat. Do your job, or... Well... You know.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicKidney_GenII"]/label</xpath>
+				<value>
+					<label>install stellar kidney</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicKidney_GenII"]/description</xpath>
+				<value>
+					<description>Install an overpowered kidney.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicKidney_GenII"]/jobString</xpath>
+				<value>
+					<jobString>Installing overpowered kidney.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLiver_GenII"]/label</xpath>
+				<value>
+					<label>overpowered liver</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLiver_GenII"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an overpowered liver</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLiver_GenII"]/description</xpath>
+				<value>
+					<description>An installed overpowered liver.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicLiver_GenII"]/label</xpath>
+				<value>
+					<label>overpowered liver</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicLiver_GenII"]/description</xpath>
+				<value>
+					<description>A highly advanced liver-like device that does all the tasks natural livers can do at a much higher speed and efficiency. It is made to deal with anything that can be thrown at it, and more. Don't test it, though, it's against the warranty.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLiver_GenII"]/label</xpath>
+				<value>
+					<label>install overpowered liver</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLiver_GenII"]/description</xpath>
+				<value>
+					<description>Install an overpowered liver.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLiver_GenII"]/jobString</xpath>
+				<value>
+					<jobString>Installing overpowered liver.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicStomach_GenII"]/label</xpath>
+				<value>
+					<label>overpowered digestive system</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicStomach_GenII"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an overpowered digestive system</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicStomach_GenII"]/description</xpath>
+				<value>
+					<description>An installed overpowered digestive system.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicStomach_GenII"]/label</xpath>
+				<value>
+					<label>overpowered digestive system</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicStomach_GenII"]/description</xpath>
+				<value>
+					<description>A complete digestive system in a singular organ-shaped device that converts consumed food efficiency into pure nutrtients, also destroying (capturing, interrogating, torturing, exterminating) any illness-causing elements in the process of nutrient conversion, effectively removing risk of food poisoning.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicStomach_GenII"]/label</xpath>
+				<value>
+					<label>install overpowered digestive system</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicStomach_GenII"]/description</xpath>
+				<value>
+					<description>Install an overpowered digestive system.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicStomach_GenII"]/jobString</xpath>
+				<value>
+					<jobString>Installing overpowered digestive system.</jobString>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

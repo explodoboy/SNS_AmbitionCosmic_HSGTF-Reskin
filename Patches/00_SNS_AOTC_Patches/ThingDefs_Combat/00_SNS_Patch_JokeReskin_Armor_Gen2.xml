@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Science Never Stops: Ambition of the Cosmic</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Apparel_CosmicPowerArmorHelmet"]/label</xpath>
+				<value>
+					<label>OverPower-ed Armor Helmet</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Apparel_CosmicPowerArmorHelmet"]/description</xpath>
+				<value>
+					<description>A pressure-sealed Power Armor helmet, made from Overpowered Alloy and Torture Liquid. The pained cries of the countless consumed to make this flow through the helmet.</description>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Apparel_CosmicPowerArmor"]/label</xpath>
+				<value>
+					<label>OverPower-ed Armor</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Apparel_CosmicPowerArmor"]/description</xpath>
+				<value>
+					<description>A suit of powered armor, made from Overpowered Alloy and Torture Liquid. The agony of the countless consumed to make this armor produce a protective forcefield that the user can shoot through.</description>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

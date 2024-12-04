@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Vanilla Achievements Expanded</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationFindMod">
+			<mods>
+				<li>SNS AOTC: True Pinnacle of Creation</li>
+			</mods>
+			<match Class="PatchOperationSequence">
+				<operations>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_CraftCount_StableMatter_I"]/label</xpath>
+						<value>
+							<label>Weep For The Fallen</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_CraftCount_StableMatter_I"]/description</xpath>
+						<value>
+							<description>Draw Petrified Torture Matter in the Dystopia Device.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ItemCount_StableMatter_I"]/label</xpath>
+						<value>
+							<label>Why?</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ItemCount_StableMatter_I"]/description</xpath>
+						<value>
+							<description>Obtain any amount of Petrified Torture Matter by any means.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ItemCount_StableMatter_II"]/label</xpath>
+						<value>
+							<label>The Pain Of Not Being</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ItemCount_StableMatter_II"]/description</xpath>
+						<value>
+							<description>Stockpile a thousand units of Petrified Torture Matter by any means.</description>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ItemCount_StableMatter_III"]/label</xpath>
+						<value>
+							<label>I Am Entropy, Destroyer Of Creation</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ItemCount_StableMatter_III"]/description</xpath>
+						<value>
+							<description>Stockpile ten-thousand units of Petrified Torture Matter by any means.</description>
+						</value>
+					</li>
+					
+				</operations>
+			</match>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

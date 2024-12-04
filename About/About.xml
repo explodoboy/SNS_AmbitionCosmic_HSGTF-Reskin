@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+
+<name>AOTC: HAS SCIENCE GONE TOO FAR?!</name>
+<author>explodoboy</author>
+<packageId>explodoboy.SNSAmbitionCosmic.JokeReskin</packageId>
+<supportedVersions><li>1.5</li></supportedVersions>
+<modDependencies>
+    <li>
+      <packageId>explodoboy.SNSAmbitionCosmic</packageId>
+      <displayName>Ambition of the Cosmic</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/1802857253</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>explodoboy.SNSAmbitionCosmic</li>
+    <li>explodoboy.SNSAmbitionCosmic.RoyaltyAddon</li>
+    <li>explodoboy.SNSAmbitionCosmic.TimelessSpeciesMod</li>
+    <li>explodoboy.SNSAmbitionCosmic.Gen4Addon</li>
+    <li>explodoboy.SNSAmbitionCosmic.CEPatch</li>
+    <li>explodoboy.SNSAmbitionCosmic.YGTFReskin</li>
+  </loadAfter>
+<description>This mod is a reskin of Ambition of the Cosmic. It transforms you into an awful person in a hilariously dark universe.
+
+There is no lore. At least, not from the base AOTC. HSGTF opens a new world, completely unrelated to that of AOTC. In HSGTF, you're harnessing literal hatred, vitriol, and torture to ascend to the greatest level of all, built atop a vast empire of incomprehensible pain!
+
+Additionally, the fourth wall only exists when I (the mod author) want it to. Descriptions and names for things may, at any time, feature me, the mod author, insulting you, threatening you, coming out of your monitor/screen to good on said threats, and more. Sometimes it's serious, too!
+
+On the topic of threats, I better not hear any criticism about my laziness around giving this reskin textures. I will pour Torture Liquid down your ears if you do so. And, no, you're not getting any context on what that is. Do your own research.
+</description>
+</ModMetaData>

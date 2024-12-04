@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Science Never Stops: Ambition of the Cosmic</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations>
+			<!-- Starsteel/Voidsteel -->
+			<!-- Overwrite name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Unobtainium"]/label</xpath>
+				<value>
+					<label>Unbalancedite</label>
+				</value>
+			</li>
+			<!-- Overwrite description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Unobtainium"]/description</xpath>
+				<value>
+					<description>A metal allow of plateel, gold, hatred, and vitriol, Unbalancedite is exceptionally tough and also comfortable, probably from whoever was skinned alive to make this.</description>
+				</value>
+			</li>
+			
+			<!-- Starsteel Wool/Voidsteel Wool -->
+			<!-- Overwrite name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Unobtainium_Fiber"]/label</xpath>
+				<value>
+					<label>Unbalancedite Wool</label>
+				</value>
+			</li>
+			<!-- Overwrite description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Unobtainium_Fiber"]/description</xpath>
+				<value>
+					<description>A metal-like textile woven from dense strands of Unbalancedite. It is highly resiliant, flexible, and comfortable. You can practically hear the soul trapped inside screaming, trying to escape from its eternal damnation! Don't worry, it won't escape--but if it does I pray that you can kill yourself before the ghosts can get to you, because they're *very* angry. Oh, Unbalancedite Wool can be used as leather and fabric! Great, huh?</description>
+				</value>
+			</li>
+			
+			<!-- Cosmic Alloy/Abyssal Alloy -->
+			<!-- Overwrite name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_CosmicAlloy"]/label</xpath>
+				<value>
+					<label>Overpowered Alloy</label>
+				</value>
+			</li>
+			<!-- Overwrite description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_CosmicAlloy"]/description</xpath>
+				<value>
+					<description>Overpowered Alloys is an incredibly tough alloy made from Unbalancedite soaked in pure Torture Liquid. Superior in every way to its predecessor (including the screaming!), Overpowered Alloy has no superiors. (except for its many superiors)</description>
+				</value>
+			</li>
+			
+			<!-- Cosmic Weave/Abyssal Weave -->
+			<!-- Overwrite name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_CosmicAlloyWeave"]/label</xpath>
+				<value>
+					<label>Overpowered Textile</label>
+				</value>
+			</li>
+			<!-- Overwrite description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_CosmicAlloyWeave"]/description</xpath>
+				<value>
+					<description>A metal-like textile woven from dense strands of Overpowered Alloy, now with 500% less chance of the souls of the innocent and damned escaping and torturing you for the rest of eternity! It can be used as both a leather and fabric.</description>
+				</value>
+			</li>
+			<!-- Overwrite building color modifier -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_CosmicAlloyWeave"]/stuffProps/color</xpath>
+				<value>
+					<color>(25,25,25)</color>
+				</value>
+			</li>
+			<!-- Overwrite glow color -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_CosmicAlloyWeave"]/comps/li/glowColor</xpath>
+				<value>
+					<glowColor>(0,17,255,0)</glowColor>
+				</value>
+			</li>
+			
+			<!-- Cosmic Component/Abyssal Component -->
+			<!-- Overwrite name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Component_GenII"]/label</xpath>
+				<value>
+					<label>Overpowered Component</label>
+				</value>
+			</li>
+			<!-- Overwrite description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Component_GenII"]/description</xpath>
+				<value>
+					<description>A terribly made component that refuses to work with the rest of the team. With enough shock-therapy, however, even the most rebellious components can realize that the team needs them!</description>
+				</value>
+			</li>
+			
+			<!-- Cosmic Catalyst Fuel Cell/Abyssal Catalyst Fuel Cell -->
+			<!-- Overwrite name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Unobtainium_Fuel"]/label</xpath>
+				<value>
+					<label>Vitriolic Fuel Cell</label>
+				</value>
+			</li>
+			<!-- Overwrite description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Unobtainium_Fuel"]/description</xpath>
+				<value>
+					<description>WARNING: Explosive totally-not-a-superhazard.\n\nA small cylinder of pure hatred and vitrol, with trace amounts of Torture Liquid. It's perfect for power generation and explosions! In fact, you probably should put it in a hot, poorly-ventilated room with lots of valuables and people. Especially people. Bonus points if raiders keep getting into the room with explosive weapons.</description>
+				</value>
+			</li>
+			
+			<!-- Cosmic Matter/Abyssal Matter -->
+			<!-- Overwrite name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_CosmicMatter"]/label</xpath>
+				<value>
+					<label>Torture Liquid</label>
+				</value>
+			</li>
+			<!-- Overwrite description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_CosmicMatter"]/description</xpath>
+				<value>
+					<description>A fluid excreted by the brain in situations of extreme, soul-crushing pain, both physical and emotional. The brain only produces a couple drops of it before it explodes, so to collect a meaningful amount a few ten-thousand innocent lives must be consumed. For a single unit of Torture Liquid. Fun, huh?</description>
+				</value>
+			</li>
+			
+			<!-- Cosmic Weave/Abyssal Weave -->
+			<!-- Overwrite name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Eternium"]/label</xpath>
+				<value>
+					<label>Torture Matter</label>
+				</value>
+			</li>
+			<!-- Overwrite description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Eternium"]/description</xpath>
+				<value>
+					<description>An extradimensional matter, either collected from a universe made completely of highly dense Torture Liquid and nothing else or from harvesting billions of innocent lives. Children especially. Its properties shift with extreme ease, mostly due to the tortured trying to escape its eternal prison.\n\nIt is truly the perfect material.</description>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

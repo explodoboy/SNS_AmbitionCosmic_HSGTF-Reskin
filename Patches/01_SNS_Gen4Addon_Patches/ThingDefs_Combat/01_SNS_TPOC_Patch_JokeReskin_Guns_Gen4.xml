@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>SNS AOTC: True Pinnacle of Creation</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+
+            <li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_TerminusGun"]/label</xpath>
+				<value>
+					<label>The P.O.T.A.T.O.</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_TerminusGun"]/description</xpath>
+				<value>
+					<description>Acronym: Pulverizer Obliterating [via] Tempiral Anomalies [to] Torture Obstacles\n\nA weapon that fires an endless barrage of Petrified Torture Matter projectiles. Dying to it can be put this way: "You go to Hell before you die."</description>
+				</value>
+			</li>
+            <li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_TerminusGun_Projectile"]/label</xpath>
+				<value>
+					<label>P.O.T.A.T.O. projectile</label>
+				</value>
+			</li>
+			
+            <li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_BeholderGun"]/label</xpath>
+				<value>
+					<label>The R.A.G.E.Q.U.I.T.</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_BeholderGun"]/description</xpath>
+				<value>
+					<description>Acronym: Rthere Aisn't Gactually Ean Qacronym Ufor Ithis Tlol\n\nA weapon that fires like a mortar, lobbing pure death over walls and defenses. Anything caught in its blast will probably immediately ragequit from existence, hence its name.</description>
+				</value>
+			</li>
+            <li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Beholder_Bullet"]/label</xpath>
+				<value>
+					<label>R.A.G.E.Q.U.I.T. projectile</label>
+				</value>
+			</li>
+			
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

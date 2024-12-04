@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Science Never Stops: Ambition of the Cosmic</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Linkable_Unobtainer_I"]/label</xpath>
+				<value>
+					<label>Secondary Overpowered Forge Mixer</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Linkable_Unobtainer_I"]/description</xpath>
+				<value>
+					<description>A module to the Overpowered Forge that allows the preparation of a later stage of Unbalancedite production reducing required prep-work, or the rapid conversion of Unbalancedite Wool with a secondary weaver.</description>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Linkable_CosmicDrawer_I"]/label</xpath>
+				<value>
+					<label>Advanced Torture Liquid Extraction Device</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Linkable_CosmicDrawer_I"]/description</xpath>
+				<value>
+					<description>A module to the Universe ############ ####### ### ###### that utilizes more efficient methods of torture to extract Torture Liquid at an increased rate.\n\nStats: When directly adjacent to a Universe ############ ####### ### ######, +50% workspeed given to said building(s).</description>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Linkable_CosmicDrawer_II"]/label</xpath>
+				<value>
+					<label>Advanced Torture Liquid Processing Device</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Linkable_CosmicDrawer_II"]/description</xpath>
+				<value>
+					<description>A module for both the Universe ############ ####### ### ###### and Torture Fabricator that drastically increases the efficiency of the related devices, allowing for any connected machines to violate sentient rights at a much, much higher rate than ever before.\n\nStats: When directly adjacent to an Abyssal Manipulator or Atomic Fabricator, +100% workspeed given to said buildings.</description>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Linkable_CosmicDrawer_III"]/label</xpath>
+				<value>
+					<label>Secondary ####### Portal</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Linkable_CosmicDrawer_III"]/description</xpath>
+				<value>
+					<description>A module for the Universe ############ ####### ### ###### that ####### ########## ####### ## ### ####### ######## #### ## ###### ### ####### ###### ####.\n\nStats: When directly adjacent to a Abyssal Manipulator, +250% workspeed given to said building(s).</description>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Linkable_CosmicCall_I"]/label</xpath>
+				<value>
+					<label>P.A.I.N. Child Harvester</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Linkable_CosmicCall_I"]/description</xpath>
+				<value>
+					<description>A module for the P.A.I.N. Fabricator that taps into a part of the Realm of Torture filled with innocent childrens' consciousnesses, providing ripe opportunity for processing into Torture Liquid and/or Torture Matter. Up to two modules can be attached to a singular P.A.I.N. Fabricator.\n\nStats: When directly adjacent to a P.A.I.N. Fabricator, +25% workspeed given to said building(s). Can link up to 2 at a time for a +50% total workspeed bonus.</description>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Linkable_CosmicCall_II"]/label</xpath>
+				<value>
+					<label>P.A.I.N. Orphan Harvester</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Linkable_CosmicCall_II"]/description</xpath>
+				<value>
+					<description>A highly complicated module for the P.A.I.N. Fabricator that injects an otherwise useless material known as 'Cosmic Matter' into the Realm of Torture for high-precision extraction. It also allows for the abduction of orphans from nearby solar systems for depositing into ####### ######## for processing into Torture Liquid and/or Torture Matter.\n\nStats: When directly adjacent to a P.A.I.N. Fabricator, +75% workspeed given to said building(s).</description>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Linkable_CosmicCall_III"]/label</xpath>
+				<value>
+					<label>P.A.I.N. Omega Latchpoint</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Linkable_CosmicCall_III"]/description</xpath>
+				<value>
+					<description>An arcane module for the P.A.I.N. Fabricator that utilizes 'Type-Omega Cosmic Matter' to tap into the deepest, darkest depths of the Realm of Torture for the collection of ### #### ### ###### ##### for depositing into ###### ######## for processing into Torture Liquid and/or Torture Matter. Some Cosmic Matter and another unknown material are occasionally produced as byproduct, but the two can be easily cast back to whence they came, since they're both utterly useless.\n\nStats: When directly adjacent to a P.A.I.N. Fabricator, +250% workspeed given to said building(s).</description>
+				</value>
+			</li>
+
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

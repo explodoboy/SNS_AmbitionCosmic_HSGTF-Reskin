@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Science Never Stops: Ambition of the Cosmic</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_Bullet_Sniper"]/label</xpath>
+				<value>
+					<label>catalyst turret projectile</label>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_Sniper"]/label</xpath>
+				<value>
+					<label>catalyst turret gun</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_Sniper"]/description</xpath>
+				<value>
+					<description>The gun of a catalyst turret.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Turret_Sniper"]/label</xpath>
+				<value>
+					<label>catalyst turret</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Turret_Sniper"]/description</xpath>
+				<value>
+					<description>An automatic turret fueled by the cold fury that slowly leaks from Vitriolic Fuel Cells. Said cells are protected by extremely think plates of Overpowered Alloy to ensure that the hatred contained within the cells are not released, lest an age of darkness take the galaxy once again.</description>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_PerditionSniper"]/label</xpath>
+				<value>
+					<label>overdrive catalyst turret gun</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Gun_Turret_PerditionSniper"]/description</xpath>
+				<value>
+					<description>The gun of an overdrive catalyst turret.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Turret_PerditionSniper"]/label</xpath>
+				<value>
+					<label>overdrive catalyst turret</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Turret_PerditionSniper"]/description</xpath>
+				<value>
+					<description>An automatic turret fueled by the burning fury conained within Vitriolic Fuel Cells. Said cells are protected by extremely think plates of Overpowered Alloy to ensure that the hatred contained within the cells are not released, lest an age of darkness take the galaxy once again. The turret uses up the cells when firing, and as such occasionally needs to be restocked with Vitriolic Fuel Cells.</description>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

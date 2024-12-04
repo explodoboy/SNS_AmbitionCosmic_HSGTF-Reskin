@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Vanilla Achievements Expanded</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationFindMod">
+			<mods>
+				<li>Science Never Stops: Ambition of the Cosmic</li>
+			</mods>
+			<match Class="PatchOperationSequence">
+				<operations>
+					
+                    <li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ItemCount_CosmicCallComponent_I"]/label</xpath>
+						<value>
+							<label>Forget Us.</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ItemCount_CosmicCallComponent_I"]/description</xpath>
+						<value>
+							<description>Obtain the [The Eternal Fracture]</description>
+						</value>
+					</li>
+					
+                    <li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ItemCount_CosmicCallComponent_II"]/label</xpath>
+						<value>
+							<label>Hide Us.</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ItemCount_CosmicCallComponent_II"]/description</xpath>
+						<value>
+							<description>Obtain the [Forbidden Knowledge]</description>
+						</value>
+					</li>
+					
+                    <li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ItemCount_CosmicCallComponent_III"]/label</xpath>
+						<value>
+							<label>Resist Us.</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ItemCount_CosmicCallComponent_III"]/description</xpath>
+						<value>
+							<description>Obtain the [Beckoning of Desire]</description>
+						</value>
+					</li>
+					
+                    <li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ItemCount_CosmicCallComponent_IV"]/label</xpath>
+						<value>
+							<label>Refute Us.</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ItemCount_CosmicCallComponent_IV"]/description</xpath>
+						<value>
+							<description>Obtain the [Ambition's Refuter]</description>
+						</value>
+					</li>
+					
+                    <li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ItemCount_CosmicCallComponent_V"]/label</xpath>
+						<value>
+							<label>Use Us.</label>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/AchievementsExpanded.AchievementDef[defName="SNS_Achievement_ItemCount_CosmicCallComponent_V"]/description</xpath>
+						<value>
+							<description>Obtain the [Amplifier of Torture]</description>
+						</value>
+					</li>
+					
+				</operations>
+			</match>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

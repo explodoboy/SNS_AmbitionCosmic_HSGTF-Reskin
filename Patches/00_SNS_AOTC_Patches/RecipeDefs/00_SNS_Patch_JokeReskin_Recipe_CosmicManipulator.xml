@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Science Never Stops: Ambition of the Cosmic</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations>
+			<!-- Torture Liquid Drawing -->
+			<!-- Torture Liquid Drawing jobstring -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicDrawer_DrawCosmicMatter_Base"]/jobString</xpath>
+				<value>
+					<jobString>Drawing Torture Liquid</jobString>
+				</value>
+			</li>
+			<!-- Torture Liquid Drawing label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_DrawCosmicMatter"]/label</xpath>
+				<value>
+					<label>Draw Torture Liquid</label>
+				</value>
+			</li>
+			<!-- Torture Liquid Drawing descriptor -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_DrawCosmicMatter"]/description</xpath>
+				<value>
+					<description>Combine a lot of time, energy, and people into drawing pure, stable Torture Liquid.</description>
+				</value>
+			</li>
+			
+			<!-- Overpowered Alloy Forging -->
+			<!-- Forge Overpowered Alloy jobstring -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicDrawer_ForgeCosmicAlloy_Base"]/jobString</xpath>
+				<value>
+					<jobString>Forging Overpowered Alloy</jobString>
+				</value>
+			</li>
+			<!-- Forge Overpowered Alloy from scratch label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicDrawer_ForgeCosmicAlloy_fromstorage"]/label</xpath>
+				<value>
+					<label>Forge and Infuse Overpowered Alloy</label>
+				</value>
+			</li>
+			<!-- Forge Overpowered Alloy from storage descriptor -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicDrawer_ForgeCosmicAlloy_fromstorage"]/description</xpath>
+				<value>
+					<description>Enhance the properties of Unbalancedite using Uranium and Torture Liquid to create the ultimate material./n/nThis is NOT overall faster than making Overpowered Alloy from scratch, you should only choose this if you've already got Torture Liquid in storage.</description>
+				</value>
+			</li>
+			<!-- Forge Overpowered Alloy from scratch label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicDrawer_ForgeCosmicAlloy_scratch"]/label</xpath>
+				<value>
+					<label>Forge Overpowered Alloy from scratch</label>
+				</value>
+			</li>
+			<!-- Forge Overpowered Alloy from scratch descriptor -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicDrawer_ForgeCosmicAlloy_scratch"]/description</xpath>
+				<value>
+					<description>Enhance the properties of Unbalancedite using Uranium and infuse it with Torture Liquid to create the ultimate material.</description>
+				</value>
+			</li>
+			<!-- Forge Overpowered Alloy from Weave label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicDrawer_ForgeCosmicAlloy_fromweave"]/label</xpath>
+				<value>
+					<label>Forge Overpowered Alloy from Weave</label>
+				</value>
+			</li>
+			<!-- Forge Overpowered Alloy from Weave descriptor -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicDrawer_ForgeCosmicAlloy_fromweave"]/description</xpath>
+				<value>
+					<description>Compress Overpowered Textile back into Overpowered Alloy.</description>
+				</value>
+			</li>
+			
+			<!-- Overpowered Textile Forging -->
+			<!-- Forge Overpowered Textile jobstring -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicDrawer_ForgeCosmicWeave_Base"]/jobString</xpath>
+				<value>
+					<jobString>Forging Overpowered Textile</jobString>
+				</value>
+			</li>
+			<!-- Forge Overpowered Textile from scratch label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicDrawer_ForgeCosmicWeave"]/label</xpath>
+				<value>
+					<label>Forge Overpowered Textile</label>
+				</value>
+			</li>
+			<!-- Forge Overpowered Textile from storage descriptor -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicDrawer_ForgeCosmicWeave"]/description</xpath>
+				<value>
+					<description>Transform Overpowered Alloy into the ultimate fabric; Overpowered Textile.</description>
+				</value>
+			</li>
+			
+			<!-- Advanced Catalyst Cells Forging -->
+			<!-- Forge Catalyst Cells jobstring -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicDrawer_ForgeFuelCells"]/jobString</xpath>
+				<value>
+					<jobString>Forging Vitriolic Fuel Cells</jobString>
+				</value>
+			</li>
+			<!-- Forge Catalyst Cells from scratch label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicDrawer_ForgeFuelCells"]/label</xpath>
+				<value>
+					<label>Forge Vitriolic Fuel Cells</label>
+				</value>
+			</li>
+			<!-- Forge Catalyst Cells from storage descriptor -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_CosmicDrawer_ForgeFuelCells"]/description</xpath>
+				<value>
+					<description>Forge Vitriolic Fuel Cells filled with Torture Liquid, rather than Uranium.</description>
+				</value>
+			</li>
+			
+			<!-- Gen2 Medicine x1 crafting -->
+			<!-- Gen2 Medicine jobstring -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Medicine_GenII"]/jobString</xpath>
+				<value>
+					<jobString>Creating Overpowered medicine</jobString>
+				</value>
+			</li>
+			<!-- Gen2 Medicine label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Medicine_GenII"]/label</xpath>
+				<value>
+					<label>make Overpowered medicine (x1)</label>
+				</value>
+			</li>
+			<!-- Gen2 Medicine descriptor -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Medicine_GenII"]/description</xpath>
+				<value>
+					<description>Improve either Glitterworld medicine or Unbalanced medicine with Torture Liquid and Overpowered Alloy to make an incredibly potent medicine kit.</description>
+				</value>
+			</li>
+			
+			<!-- Gen2 Medicine x5 crafting -->
+			<!-- Gen2 Medicine x5 jobstring -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Medicine_GenII_bulk"]/jobString</xpath>
+				<value>
+					<jobString>Creating Overpowered medicine</jobString>
+				</value>
+			</li>
+			<!-- Gen2 Medicine x5 label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Medicine_GenII_bulk"]/label</xpath>
+				<value>
+					<label>make Overpowered medicine (x5)</label>
+				</value>
+			</li>
+			<!-- Gen2 Medicine x5 descriptor -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Medicine_GenII_bulk"]/description</xpath>
+				<value>
+					<description>Bulk improve both/either Glitterworld medicine and/or Stellar medicine with Torture Liquid and Overpowered Alloy to make an incredibly potent medicine kit.\n\nCreating Overpowered medicine in bulk is 15% faster than individually making five kits of Overpowered medicine, not counting however long it takes to get new materials for each individual craft.</description>
+				</value>
+			</li>
+			
+			<!-- Gen3 Medicine x1 crafting -->
+			<!-- Gen3 Medicine jobstring -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Medicine_GenIII"]/jobString</xpath>
+				<value>
+					<jobString>Creating tortured medicine</jobString>
+				</value>
+			</li>
+			<!-- Gen3 Medicine label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Medicine_GenIII"]/label</xpath>
+				<value>
+					<label>make tortured medicine (x1)</label>
+				</value>
+			</li>
+			<!-- Gen3 Medicine descriptor -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Medicine_GenIII"]/description</xpath>
+				<value>
+					<description>Improve Overpowered medicine with Torture Matter to make the ultimate medicine.</description>
+				</value>
+			</li>
+			
+			<!-- Gen3 Medicine x5 crafting -->
+			<!-- Gen3 Medicine x5 jobstring -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Medicine_GenIII_bulk"]/jobString</xpath>
+				<value>
+					<jobString>Creating tortured medicine</jobString>
+				</value>
+			</li>
+			<!-- Gen3 Medicine x5 label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Medicine_GenIII_bulk"]/label</xpath>
+				<value>
+					<label>make tortured medicine (x5)</label>
+				</value>
+			</li>
+			<!-- Gen3 Medicine x5 descriptor -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Medicine_GenIII_bulk"]/description</xpath>
+				<value>
+					<description>Bulk improve Abyssal medicine with Torture Matter to make the ultimate medicine\n\nCreating tortured medicine in bulk is 15% faster than individually making five kits of tortured medicine, not counting however long it takes to get new materials for each individual craft.</description>
+				</value>
+			</li>
+			
+			<!-- Gen2 Component x1 crafting -->
+			<!-- Gen2 Component jobstring -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Component_GenII"]/jobString</xpath>
+				<value>
+					<jobString>Creating overpowered component</jobString>
+				</value>
+			</li>
+			<!-- Gen2 Component label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Component_GenII"]/label</xpath>
+				<value>
+					<label>make overpowered component</label>
+				</value>
+			</li>
+			<!-- Gen2 Component descriptor -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Component_GenII"]/description</xpath>
+				<value>
+					<description>Make a generalist Generation 2 component from Overpowered Alloy and Torture Liquid.</description>
+				</value>
+			</li>
+			
+			<!-- Gen2 Component x5 crafting -->
+			<!-- Gen2 Component x5 jobstring -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Component_GenII_bulk"]/jobString</xpath>
+				<value>
+					<jobString>Creating overpowered component</jobString>
+				</value>
+			</li>
+			<!-- Gen2 Component x5 label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Component_GenII_bulk"]/label</xpath>
+				<value>
+					<label>bulk make overpowered components (x5)</label>
+				</value>
+			</li>
+			<!-- Gen2 Component x5 descriptor -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Component_GenII_bulk"]/description</xpath>
+				<value>
+					<description>Bulk make five generalist Generation 2 components from Overpowered Alloy and Torture Liquid.\n\nCreating overpowered components in bulk is 15% faster than individually making five of them, not counting however long it takes to get new materials for each individual craft.</description>
+				</value>
+			</li>
+			
+			<!-- Gen3 Component x1 crafting -->
+			<!-- Gen3 Component jobstring -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Component_GenIII"]/jobString</xpath>
+				<value>
+					<jobString>Creating tortured component</jobString>
+				</value>
+			</li>
+			<!-- Gen3 Component label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Component_GenIII"]/label</xpath>
+				<value>
+					<label>make tortured component</label>
+				</value>
+			</li>
+			<!-- Gen3 Component descriptor -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Component_GenIII"]/description</xpath>
+				<value>
+					<description>Make a generalist Generation 3 component from Overpowered Alloy and Torture Matter.</description>
+				</value>
+			</li>
+			
+			<!-- Gen3 Component x5 crafting -->
+			<!-- Gen3 Component x5 jobstring -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Component_GenIII_bulk"]/jobString</xpath>
+				<value>
+					<jobString>Creating tortured component</jobString>
+				</value>
+			</li>
+			<!-- Gen3 Component x5 label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Component_GenIII_bulk"]/label</xpath>
+				<value>
+					<label>bulk make tortured components (x5)</label>
+				</value>
+			</li>
+			<!-- Gen3 Component x5 descriptor -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Component_GenIII_bulk"]/description</xpath>
+				<value>
+					<description>Bulk make five generalist Generation 3 components from Overpowered Alloy and Torture Matter.\n\nCreating tortured components in bulk is 15% faster than individually making five of them, not counting however long it takes to get new materials for each individual craft.</description>
+				</value>
+			</li>
+			
+			<!-- Monument to Greatness -->
+			<!-- Monument jobstring -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Hidden"]/jobString</xpath>
+				<value>
+					<jobString>Fabricating Enigmatic Blueprint</jobString>
+				</value>
+			</li>
+			<!-- Monument label -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Hidden"]/description</xpath>
+				<value>
+					<description>There is are two strange files loaded onto the Abyssal Manipulator, the first containing hundreds upon hundreds of direct threats to the person playing this game, and another file, that being a blueprint, requiring an obscene amount of Overpowered-tier material to make. It appears to be a very intricuate and delicate device. Other than that, we're not sure what this is, but we've got a feeling that this is going to be really, really horrible and evil, so we HAVE to make it.</description>
+				</value>
+			</li>
+			<!-- Monument descriptor -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_Production_Hidden"]/label</xpath>
+				<value>
+					<label>make Enigmatic Blueprint</label>
+				</value>
+			</li>
+			
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>SNS AOTC: True Pinnacle of Creation</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations>
+			<!-- Meal Gen4 -->
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Meal_Normal_GenIV"]/label</xpath>
+				<value>
+					<label>Hedonist's Nightmare</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Meal_Normal_GenIV"]/description</xpath>
+				<value>
+					<description>The food that the Gods feared, this 'meal' is nothing but Tortur- Wait, TORTURE MATTER?! You're putting THAT into your mouth? WHAT?! WHY?!\n\nFirst it was the Bionics. Then it was the Neural Enchanter. THEN YOU DECIDED THAT EATING BILLIONS OF DEAD PEOPLE WAS A GOOD IDEA! WHAT?! HOW?! THIS MAKES NO SENSE! I'M GOING TO IMPLODE!</description>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

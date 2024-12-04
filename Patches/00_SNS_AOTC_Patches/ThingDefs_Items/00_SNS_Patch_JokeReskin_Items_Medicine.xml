@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Science Never Stops: Ambition of the Cosmic</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations>
+			<!-- Gen1 Medicine -->
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Medicine_GenI"]/label</xpath>
+				<value>
+					<label>Unbalanced medicine</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Medicine_GenI"]/description</xpath>
+				<value>
+					<description>A kit of "#### YOU, YOU PIECE OF ####"-era medical supplies, improved with Unbalancedite and better medical methods, that primarily being medieval methods of bludgeoning and tearing off of limbs. Its equipment is sterilized with pure vitriol, making it almost perfectly sterile.\n\nIt is on-par with Glitterworld medicine in almost every way except for cost.</description>
+				</value>
+			</li>
+			
+			<!-- Gen2 Medicine -->
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Medicine_GenII"]/label</xpath>
+				<value>
+					 <label>Overpowered medicine</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Medicine_GenII"]/description</xpath>
+				<value>
+					<description>A kit made from either Glitterworld-grade medicine or Unbalanced medicine, further improved with Overpoweredite and Torture Liquid. It contains even more barbaric tools than Unbalanced Medicine, particularly highly advanced torture tools, methods, and ideologies. All of the knives are dull, all of the clubs are spiked, and the teeth-pullers are fully automated, able to remove the entire jaw in one go! All of this, without any anestetic! (Disclaimer: Pawns will still get the anestetic hediff after surgeries. This is not medically induced, but rather by sheer pain.)</description>
+				</value>
+			</li>
+			
+			<!-- Gen3 Medicine -->
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Medicine_GenIII"]/label</xpath>
+				<value>
+					<label>tortured medicine</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Medicine_GenIII"]/description</xpath>
+				<value>
+					<description>A kit of extremely advanced medical supplies, containing extremely advanced 'medical' nanites able to 'operate' any task, no matter how much pain it needs. Wait, did I say pain? I meant energy.\n\nUm... Did you know that you can re-organize your colonists on the colonist bar? It's one of the mouse buttons, but I forget the exact one.\n\nWhere was I? Oh, right. The medicine is unsurpassed in inhuman tort- NOT AGAIN!</description>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

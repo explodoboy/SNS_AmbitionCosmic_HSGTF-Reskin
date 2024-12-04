@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Science Never Stops: Ambition of the Cosmic</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations>
+			<!-- Gen1 pistol -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Pistol_GenI_Bullet"]/label</xpath>
+				<value>
+					<label>unbalanced pistol projectile</label>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Pistol_GenI"]/label</xpath>
+				<value>
+					<label>unbalanced pistol</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Pistol_GenI"]/description</xpath>
+				<value>
+					<description>An advanced pistol that shoots little clumps of pure hatred at high velocities.\n\nThe unbalanced pistol is a favorite of Torture Liquid Union empires, primarily because of the severe pain it inflicts.</description>
+				</value>
+			</li>
+			
+			<!-- Gen1 rifle -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Rifle_GenI_Bullet"]/label</xpath>
+				<value>
+					<label>unbalanced rifle bullet</label>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Rifle_GenI"]/label</xpath>
+				<value>
+					<label>unbalanced rifle</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Rifle_GenI"]/description</xpath>
+				<value>
+					<description>A fully automatic rifle that propels pure vitriol at high velocities. Although its hatred (and damage output) is the weakest of the unbalanced weapons, its firerate is unrivaled.\n\nThe unbalanced rifle is a favorite of Torture Liquid Union empires, primarily because of the severe pain it inflicts.</description>
+				</value>
+			</li>
+			
+			<!-- Gen1 shotgun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Shotgun_GenI_Bullet"]/label</xpath>
+				<value>
+					<label>unbalanced shotgun projectile</label>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Shotgun_GenI"]/label</xpath>
+				<value>
+					<label>unbalanced shotgun</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Shotgun_GenI"]/description</xpath>
+				<value>
+					<description>A highly advanced shotgun that propels a large amount of pure-pain projectiles that excel at dominating armor. Its projectiles completely lack respect for armor, and as such just ignore it when murdering people.\n\nThe unbalanced shotgun is a favorite of Torture Liquid Union empires, primarily because of the severe pain it inflicts.</description>
+				</value>
+			</li>
+			
+			<!-- Gen1 sniper -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Sniper_GenI_Bullet"]/label</xpath>
+				<value>
+					<label>unbalanced sniper bullet</label>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Sniper_GenI"]/label</xpath>
+				<value>
+					<label>unbalanced sniper</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Sniper_GenI"]/description</xpath>
+				<value>
+					<description>A highly advanced sniper that fires extremely hateful projectiles that punch straight through armor, and still have enough fury to blow off a limb or two. While it takes a while to rile itself up and fire, it can get the job done in just one shot.\n\nThe unbalanced sniper is a favorite of Torture Liquid Union empires, primarily because of the severe pain it inflicts.</description>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

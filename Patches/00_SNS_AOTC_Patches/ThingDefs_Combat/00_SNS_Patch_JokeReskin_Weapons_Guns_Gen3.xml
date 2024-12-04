@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Science Never Stops: Ambition of the Cosmic</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations>
+			<!-- Gen3 pistol -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Pistol_GenIII_Bullet"]/label</xpath>
+				<value>
+					<label>tortured pistol projectile</label>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Pistol_GenIII"]/label</xpath>
+				<value>
+					<label>tortured pistol</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Pistol_GenIII"]/description</xpath>
+				<value>
+					<description>An arcane pistol that is completely ####### lame and because of that the mod author didn't want to write a description for it. #### you, tortured pistol.</description>
+				</value>
+			</li>
+			
+			<!-- Gen3 rifle -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Rifle_GenIII_Bullet"]/label</xpath>
+				<value>
+					<label>tortured rifle projectile</label>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Rifle_GenIII"]/label</xpath>
+				<value>
+					<label>tortured rifle</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Rifle_GenIII"]/description</xpath>
+				<value>
+					<description>A fully automatic rifle that has an incredibly short fuse. It gets angry at literally nothing, and when angry it unleashes an unending barrage of deadly projectiles.</description>
+				</value>
+			</li>
+			
+			<!-- Gen3 shotgun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Shotgun_GenIII_Bullet"]/label</xpath>
+				<value>
+					<label>tortured shotgun projectile</label>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Shotgun_GenIII"]/label</xpath>
+				<value>
+					<label>tortured shotgun</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Shotgun_GenIII"]/description</xpath>
+				<value>
+					<description>An arcane shotgun that fires a devastating clump of Torture Matter projectiles that have an unfathomable hatred towards all things protection. Armor? Gone. Emotional security? Gone. Condoms? Firstly, unless you've got condoms made of Overpowered Alloy, you'd just need a normal gun to do the job. Oh, also gone.</description>
+				</value>
+			</li>
+			
+			<!-- Gen3 sniper -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Sniper_GenIII_Bullet"]/label</xpath>
+				<value>
+					<label>tortured sniper projectile</label>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Sniper_GenIII"]/label</xpath>
+				<value>
+					<label>tortured sniper</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Sniper_GenIII"]/description</xpath>
+				<value>
+					<description>An arcane sniper rifle made of Torture Matter and Overpowered Alloy. Its projectiles have an unfathomable hatred towards all things that exist, with that hatred able to manifest in reality as pure destruction.</description>
+				</value>
+			</li>
+			
+			<!-- The TORMENT -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Omega_Bullet"]/label</xpath>
+				<value>
+					<label>TORMENT projectile</label>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_EterniumLance"]/label</xpath>
+				<value>
+					<label>The TORMENT</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_EterniumLance"]/description</xpath>
+				<value>
+					<description>A weapon made of pure Torture Matter, the TORMENT fires pure Torture Matter at an incredibly high rate. Those caught in its blasts become victim to an infinite death loop, producing Torture Matter in the Torture Dungeon. There are very few things that can survive it.\n\nIf you've watched JoJo's Bizzare Adventure Part 5, you would understand.</description>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Science Never Stops: Ambition of the Cosmic</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Apparel_StableMatterPowerArmorHelmet"]/label</xpath>
+				<value>
+					<label>TORTURE Helmet</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Apparel_StableMatterPowerArmorHelmet"]/description</xpath>
+				<value>
+					<description>A pressure-sealed OverPower-ed Armor Helmet fueled by Torture Matter. The billions upon billions of innocent lives consumed to make this has made the armor nigh-impenetrable.</description>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Apparel_StableMatterPowerArmor"]/label</xpath>
+				<value>
+					<label>TORTURE Armor</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Apparel_StableMatterPowerArmor"]/description</xpath>
+				<value>
+					<description>A suit of OverPower-ed Armor fueled by Torture Matter. The billions upon billions of innocent lives consumed to make this has lead to a nigh-impenetrable personal shield.</description>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

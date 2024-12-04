@@ -1,0 +1,986 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Science Never Stops: Ambition of the Cosmic</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations>
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicEye_GenI"]/label</xpath>
+				<value>
+					<label>unbalanced eye</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicEye_GenI"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an unbalanced eye</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicEye_GenI"]/description</xpath>
+				<value>
+					<description>An installed unbalanced eye.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicEye_GenI"]/label</xpath>
+				<value>
+					<label>unbalanced eye</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicEye_GenI"]/description</xpath>
+				<value>
+					<description>A highly advanced artifical eye made of high-strength Unbalancedite based off of the Archotech eye. It is incredibly tough, able to withstand high-force impacts without breaking beyond repair. Just like the Archotech eye, it is able to percieve every type of electromagnetic radiation, including radio waves, infrared, light, x-rays, and gamma rays. Its visual acuity is precise enough to read handwriting from twenty meters away. It can emit various wavelengths of radiation like a flashlight, and has an internal near-subpersona-level AI which helps highlight commonly useful visual information.\n\nIts greatest feature, however, is that if you gaze deeply enough into it, you can see the face of the mod author crying, as he breaks his keyboard due to Stellaris screwing him over repeatedly, amplified by his refusal to play anything below Grand Admiral with Starnet active.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicEye_GenI"]/label</xpath>
+				<value>
+					<label>install unbalanced eye</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicEye_GenI"]/description</xpath>
+				<value>
+					<description>Install an unbalanced eye.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicEye_GenI"]/jobString</xpath>
+				<value>
+					<jobString>Installing unbalanced eye.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicEar_GenI"]/label</xpath>
+				<value>
+					<label>unbalanced ear</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicEar_GenI"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an unbalanced ear</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicEar_GenI"]/description</xpath>
+				<value>
+					<description>An installed unbalanced ear.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicEar_GenI"]/label</xpath>
+				<value>
+					<label>unbalanced ear</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicEar_GenI"]/description</xpath>
+				<value>
+					<description>A highly advanced artifical ear made of high-strength Unbalancedite. It is incredibly tough, able to withstand high-force impact without breaking beyond repair. Able to hear and detect sound from kilometers away, regardless of how low or high the frequency of said sound is, and also has an internal near-subpersona-level AI that equalises sounds, filters out all unecessary details, and attempts to increase the clarity of speech.\n\nIts greatest feature, however, is that if you put your ear close enough to it, you can just barely hear the mod author laughting (not) maniacally as he writes the lore for this mod.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicEar_GenI"]/label</xpath>
+				<value>
+					<label>install unbalanced ear</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicEar_GenI"]/description</xpath>
+				<value>
+					<description>Install an unbalanced ear.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicEar_GenI"]/jobString</xpath>
+				<value>
+					<jobString>Installing unbalanced ear.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicNose_GenI"]/label</xpath>
+				<value>
+					<label>unbalanced nose</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicNose_GenI"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an unbalanced nose</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicNose_GenI"]/description</xpath>
+				<value>
+					<description>An installed unbalanced nose.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicNose_GenI"]/label</xpath>
+				<value>
+					<label>unbalanced nose</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicNose_GenI"]/description</xpath>
+				<value>
+					<description>A nose made of Unbalancedite, able to breathe in very high amounts of air in short periods of time. Extremely tough and reliable, its only downfall is that one cannot smell with it, primarily because the nose is *very* angry that it was made into a nose, and wants to spite you.\n\nNo, I don't know how it prevents you from smelling. No, I'm not going to make a realistic reason for this. -explodoboy</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicNose_GenI"]/label</xpath>
+				<value>
+					<label>install unbalanced nose</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicNose_GenI"]/description</xpath>
+				<value>
+					<description>Install an unbalanced nose.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicNose_GenI"]/jobString</xpath>
+				<value>
+					<jobString>Installing unbalanced nose.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicJaw_GenI"]/label</xpath>
+				<value>
+					<label>unbalanced jaw</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicJaw_GenI"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an unbalanced jaw</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicJaw_GenI"]/description</xpath>
+				<value>
+					<description>An installed unbalanced jaw.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicJaw_GenI"]/label</xpath>
+				<value>
+					<label>unbalanced jaw</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicJaw_GenI"]/description</xpath>
+				<value>
+					<description>A highly advanced artifical jaw made of high-strength Unbalancedite. It is incredibly tough, able to withstand high-force impact without breaking beyond repair. Able to literally chew through Plasteel and amplify the volume of one's own vocalisations alongside increase the clarity of speech, it is an exceptional eating and negotiation tool.\n\nIts only downfall is that one cannot taste with it, primarily because the jaw views the tongue as an intruder and tries to rip it into shreds as soon as the jaw is installed.\n\nUnlike the ear, you're getting a (remotely) realistic reason for why something isn't working. No, I'm still not going to make a realistic reason why you can't smell with the nose. Stop bothering me. -explodoboy</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicJaw_GenI"]/label</xpath>
+				<value>
+					<label>install unbalanced jaw</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicJaw_GenI"]/description</xpath>
+				<value>
+					<description>Install an unbalanced jaw.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicJaw_GenI"]/jobString</xpath>
+				<value>
+					<jobString>Installing unbalanced jaw.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicHead_GenI"]/label</xpath>
+				<value>
+					<label>unbalanced head shroud</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicHead_GenI"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an unbalanced head shroud</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicHead_GenI"]/description</xpath>
+				<value>
+					<description>An installed unbalanced head shroud.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicHead_GenI"]/label</xpath>
+				<value>
+					<label>unbalanced head shroud</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicHead_GenI"]/description</xpath>
+				<value>
+					<description>Some surgically-implanted Unbalancedite armor for the head. While it doesn't provide any benefit over the natural body, it does make the head much more durable.\n\nThough the plating is hidden underneath the skin, there are times where the armor tries to escape from its owner. Though it always fails, there's a small amount of discomfort when this happens for an hour or two.\n\nNot really. The mod author is too lazy to do such a thing.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicHead_GenI"]/label</xpath>
+				<value>
+					<label>install unbalanced head shroud</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicHead_GenI"]/description</xpath>
+				<value>
+					<description>Install an unbalanced head shroud.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicHead_GenI"]/jobString</xpath>
+				<value>
+					<jobString>Installing unbalanced head shroud.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicNeck_GenI"]/label</xpath>
+				<value>
+					<label>unbalanced neck shroud</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicNeck_GenI"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an unbalanced neck shroud</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicNeck_GenI"]/description</xpath>
+				<value>
+					<description>An installed unbalanced neck shroud.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicNeck_GenI"]/label</xpath>
+				<value>
+					<label>unbalanced neck shroud</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicNeck_GenI"]/description</xpath>
+				<value>
+					<description>A surgically-implanted Unbalancedite armor for the neck. While it doesn't provide any benefit over the natural body, it does make the neck much more durable.\n\nThough the plating is hidden underneath the skin, there are times where the armor tries to escape from its owner. Though it always fails, there's a small amount of discomfort when this happens for an hour or two.\n\nNot really. The mod author is too lazy to do such a thing.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicNeck_GenI"]/label</xpath>
+				<value>
+					<label>install unbalanced neck shroud</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicNeck_GenI"]/description</xpath>
+				<value>
+					<description>Install an unbalanced neck shroud.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicNeck_GenI"]/jobString</xpath>
+				<value>
+					<jobString>Installing unbalanced neck shroud.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicTorso_GenI"]/label</xpath>
+				<value>
+					<label>unbalanced torso shroud</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicTorso_GenI"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an unbalanced shroud</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicTorso_GenI"]/description</xpath>
+				<value>
+					<description>An installed unbalanced torso shroud.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicTorso_GenI"]/label</xpath>
+				<value>
+					<label>unbalanced torso shroud</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicTorso_GenI"]/description</xpath>
+				<value>
+					<description>A surgically-implanted Unbalancedite armor for the torso. While it doesn't provide any benefit over the natural body, it does make the torso much more durable.\n\nThough the plating is hidden underneath the skin, there are times where the armor tries to escape from its owner. Though it always fails, there's a small amount of discomfort when this happens for an hour or two.\n\nNot really. The mod author is too lazy to do such a thing.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicTorso_GenI"]/label</xpath>
+				<value>
+					<label>install unbalanced torso shroud</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicTorso_GenI"]/description</xpath>
+				<value>
+					<description>Install an unbalanced torso shroud.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicTorso_GenI"]/jobString</xpath>
+				<value>
+					<jobString>Installing unbalanced torso shroud.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicArm_GenI"]/label</xpath>
+				<value>
+					<label>unbalanced arm</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicArm_GenI"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an unbalanced arm</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicArm_GenI"]/description</xpath>
+				<value>
+					<description>An installed unbalanced arm.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicArm_GenI"]/label</xpath>
+				<value>
+					<label>unbalanced arm</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicArm_GenI"]/description</xpath>
+				<value>
+					<description>A highly advanced artifical arm made of high-strength Unbalancedite. It is incredibly tough, able to withstand high-force impact without breaking beyond repair. It is able to bend some softer metals all on its own with the precision of performing surgery on a grain of rice.\n\nIts only downfall is that sometimes the arm gets lazy and doesn't want to work. It should be pretty obvious what happens when the arm runs out of self-motivation.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicArm_GenI"]/label</xpath>
+				<value>
+					<label>nstall unbalanced arm</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicArm_GenI"]/description</xpath>
+				<value>
+					<description>Install an unbalanced arm.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicArm_GenI"]/jobString</xpath>
+				<value>
+					<jobString>Installing unbalanced arm.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLeg_GenI"]/label</xpath>
+				<value>
+					<label>unbalanced leg</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLeg_GenI"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an unbalanced leg</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLeg_GenI"]/description</xpath>
+				<value>
+					<description>An installed unbalanced leg.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicLeg_GenI"]/label</xpath>
+				<value>
+					<label>unbalanced leg</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicLeg_GenI"]/description</xpath>
+				<value>
+					<description>A highly advanced artifical leg made of high-strength Unbalancedite. It is incredibly tough, able to withstand high-force impact without breaking beyond repair. It is able to allow its user to move as fast as a decent car.\n\nIts only downfall is that it hates its user, occasionally tripping them up.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLeg_GenI"]/label</xpath>
+				<value>
+					<label>install unbalanced leg</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLeg_GenI"]/description</xpath>
+				<value>
+					<description>Install an unbalanced leg.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLeg_GenI"]/jobString</xpath>
+				<value>
+					<jobString>Installing unbalanced leg.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicSpine_GenI"]/label</xpath>
+				<value>
+					<label>unbalanced spine</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicSpine_GenI"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an unbalanced spine</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicSpine_GenI"]/description</xpath>
+				<value>
+					<description>An installed unbalanced spine.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicSpine_GenI"]/label</xpath>
+				<value>
+					<label>unbalanced spine</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicSpine_GenI"]/description</xpath>
+				<value>
+					<description>A highly advanced artifical spine made of high-strength Unbalancedite. It's extremely sturdy, able to handle very high amounts of weight and general strain from various sources all at once.\n\nIts only downfall is that the mod author couldn't make a decent joke here.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicSpine_GenI"]/label</xpath>
+				<value>
+					<label>install unbalanced spine</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicSpine_GenI"]/description</xpath>
+				<value>
+					<description>Install an unbalanced spine.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicSpine_GenI"]/jobString</xpath>
+				<value>
+					<jobString>Installing unbalanced spine.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicBrain_GenI"]/label</xpath>
+				<value>
+					<label>unbalanced neural enchanter</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicBrain_GenI"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an unbalanced neural enchanter</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicBrain_GenI"]/description</xpath>
+				<value>
+					<description>An installed unbalanced neural enchanter.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicBrain_GenI"]/label</xpath>
+				<value>
+					<label>unbalanced neural enchanter</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicBrain_GenI"]/description</xpath>
+				<value>
+					<description>A highly advanced brain 'implant' that covers the entirety of the brain and replaces some parts not related to personality and emotion, but this means that it cannot be removed without destruction of the brain or replacement devices. It is possible, however, to replace it with other neural enchanters.\n\nInstalled Neural Enchanters prevent Alzheimers and Dementia from developing by threatening the brain, but the Enchanter is too cowardly to make do on its threats, and as such can't actually do anything if the brain has already developed a condition.\n\nBeing made of Unbalancedite, it is incredibly durable, and also incredibly hateful. It's practically guarenteed to cause SOMEBODY to rage-quit the world!</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicBrain_GenI"]/label</xpath>
+				<value>
+					<label>install unbalanced neural enchanter</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicBrain_GenI"]/description</xpath>
+				<value>
+					<description>Install an unbalanced neural enchanter.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicBrain_GenI"]/jobString</xpath>
+				<value>
+					<jobString>Installing unbalanced neural enchanter.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicHeart_GenI"]/label</xpath>
+				<value>
+					<label>unbalanced heart</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicHeart_GenI"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an unbalanced heart</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicHeart_GenI"]/description</xpath>
+				<value>
+					<description>An installed unbalanced heart.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicHeart_GenI"]/label</xpath>
+				<value>
+					<label>unbalanced heart</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicHeart_GenI"]/description</xpath>
+				<value>
+					<description>A highly advanced blood pump that replaces the heart. While it looks nothing like a natural heart, it's far better and more efficient. It can pump blood at the highest safe levels, and adjust (threaten) bloodflow (into doing its job and NOT trying to escape) dynamically (whenever blood tries to escape) to noticably reduce the rate of bleeding. You can almost hear the pump screaming in agony!</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicHeart_GenI"]/label</xpath>
+				<value>
+					<label>install unbalanced heart</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicHeart_GenI"]/description</xpath>
+				<value>
+					<description>Install an unbalanced heart.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicHeart_GenI"]/jobString</xpath>
+				<value>
+					<jobString>Installing unbalanced heart.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLung_GenI"]/label</xpath>
+				<value>
+					<label>unbalanced lung</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLung_GenI"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an unbalanced lung</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLung_GenI"]/description</xpath>
+				<value>
+					<description>An installed unbalanced lung.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicLung_GenI"]/label</xpath>
+				<value>
+					<label>unbalanced lung</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicLung_GenI"]/description</xpath>
+				<value>
+					<description>A highly advanced lung-like device that collects pure oxygen through normal breathing. It draws oxygen far faster and more efficiently than natural lungs, alongside being able to store oxygen for extended periods of time. Equipped with advanced filtration devices, it can draw oxygen from the most thin atmospheres.\n\nIts best feature is that there is a one-in-a-decillion chance for the lung to go on strike, resulting in the immediate death of its user.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLung_GenI"]/label</xpath>
+				<value>
+					<label>install unbalanced lung</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLung_GenI"]/description</xpath>
+				<value>
+					<description>Install a unbalanced lung.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLung_GenI"]/jobString</xpath>
+				<value>
+					<jobString>Installing unbalanced lung.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicKidney_GenI"]/label</xpath>
+				<value>
+					<label>unbalanced kidney</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicKidney_GenI"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an unbalanced kidney</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicKidney_GenI"]/description</xpath>
+				<value>
+					<description>An installed unbalanced kidney.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicKidney_GenI"]/label</xpath>
+				<value>
+					<label>unbalanced kidney</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicKidney_GenI"]/description</xpath>
+				<value>
+					<description>A highly advanced blood filtration device that filters faster and better than any natural kidney ever could. It is not only able to handle an extremely high bloodflow, but also not lose any efficiency in extreme situations.\n\nThough it works very quickly, it's not very motivated to do its job. Sometimes you need to rip it back out, offer (force) it (to undergo) some shock therapy, and put it back in to make sure it's working as it should.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicKidney_GenI"]/label</xpath>
+				<value>
+					<label>install unbalanced kidney</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicKidney_GenI"]/description</xpath>
+				<value>
+					<description>Install an unbalanced kidney.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicKidney_GenI"]/jobString</xpath>
+				<value>
+					<jobString>Installing unbalanced kidney.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLiver_GenI"]/label</xpath>
+				<value>
+					<label>unbalanced liver</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLiver_GenI"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an unbalanced liver</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicLiver_GenI"]/description</xpath>
+				<value>
+					<description>An installed unbalanced liver.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicLiver_GenI"]/label</xpath>
+				<value>
+					<label>unbalanced liver</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicLiver_GenI"]/description</xpath>
+				<value>
+					<description>A highly advanced liver-like device that does all the tasks natural livers can do at a much higher speed and efficiency. It is made to deal with anything that can be thrown at it, and more.\n\nIt is incredibly efficient, and never fails! (until it does)</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLiver_GenI"]/label</xpath>
+				<value>
+					<label>install unbalanced liver</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLiver_GenI"]/description</xpath>
+				<value>
+					<description>Install an unbalanced liver.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicLiver_GenI"]/jobString</xpath>
+				<value>
+					<jobString>Installing unbalanced liver.</jobString>
+				</value>
+			</li>
+			
+			
+			<!-- -->
+			
+			
+			<!-- Hediff name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicStomach_GenI"]/label</xpath>
+				<value>
+					<label>unbalanced digestive system</label>
+				</value>
+			</li>
+			<!-- Hediff noun -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicStomach_GenI"]/labelNoun</xpath>
+				<value>
+					<labelNoun>an unbalanced digestive system</labelNoun>
+				</value>
+			</li>
+			<!-- Hediff description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/HediffDef[defName="SNS_Hediff_BionicStomach_GenI"]/description</xpath>
+				<value>
+					<description>An installed unbalanced digestive system.</description>
+				</value>
+			</li>
+			<!-- Item name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicStomach_GenI"]/label</xpath>
+				<value>
+					<label>unbalanced digestive system</label>
+				</value>
+			</li>
+			<!-- Item description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Item_BionicStomach_GenI"]/description</xpath>
+				<value>
+					<description>A complete digestive system in a singular organ-shaped device that converts consumed food efficiency into pure nutrtients, also destroying any illness-causing elements in the process of nutrient conversion, effectively removing risk of food poisoning.\n\nHaving direct access to food, it needs to be kept in line to avoid it from growing strong and breaking out of its flesh prison. Shock therapy is your first option should this happen.</description>
+				</value>
+			</li>
+			<!-- Recipe name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicStomach_GenI"]/label</xpath>
+				<value>
+					<label>install unbalanced digestive system</label>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicStomach_GenI"]/description</xpath>
+				<value>
+					<description>Install an unbalanced digestive system.</description>
+				</value>
+			</li>
+			<!-- Recipe description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/RecipeDef[defName="SNS_InstallBodyPart_BionicStomach_GenI"]/jobString</xpath>
+				<value>
+					<jobString>Installing unbalanced digestive system.</jobString>
+				</value>
+			</li>
+			
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

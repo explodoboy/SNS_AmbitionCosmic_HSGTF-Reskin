@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Science Never Stops: Ambition of the Cosmic</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Apparel_CosmicAlloyHelmet"]/label</xpath>
+				<value>
+					<label>Unbalancedite Helmet</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Apparel_CosmicAlloyHelmet"]/description</xpath>
+				<value>
+					<description>A helmet infused with a pure disdain for the world outside. It especially hates bullets.</description>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Apparel_CosmicAlloyPlateArmor"]/label</xpath>
+				<value>
+					<label>Unbalancedite Plate Armor</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_Apparel_CosmicAlloyPlateArmor"]/description</xpath>
+				<value>
+					<description>Overlapping solid plates of Unbalancedite infused with a pure disdain for the world outside. This disdain makes it even more protective than power armor.</description>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

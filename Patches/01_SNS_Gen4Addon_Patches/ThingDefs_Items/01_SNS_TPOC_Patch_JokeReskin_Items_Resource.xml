@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>SNS AOTC: True Pinnacle of Creation</li>
+    </mods>
+	<match Class="PatchOperationSequence"> 
+		<operations><!-- Cosmic Weave/Abyssal Weave -->
+			<!-- Overwrite name -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_StableMatter"]/label</xpath>
+				<value>
+					<label>Petrified Torture Matter</label>
+				</value>
+			</li>
+			<!-- Overwrite description -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="SNS_StableMatter"]/description</xpath>
+				<value>
+					<description>Petrified Torture Matter is a form of Torture Matter produced from the most tortured of souls, whose consciousnesses are utterly destroyed during their torture, leaving nothing left but the remnant of their pain. Petrified Torture Matter is nigh-indestructable, and unchanging.</description>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+</Patch>
